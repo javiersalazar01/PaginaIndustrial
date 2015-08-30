@@ -1,0 +1,20 @@
+Especificaciones de la Pagina:
+
+-Que tenga los colores de la universidad:
+Azul marino, dorado, blanco.
+-Usar el nuevo escudo del departamento y el de la Universidad.
+-En el index tiene que direccionar a:
+ 	-Pagina de la division de ingenierias: ingenierias.uson.mx
+ 	-Identidad Buho
+	-Plan del desarrollo
+	-Codigo de conducta
+	-Pagina de la universidad
+	-Redes oficiales de la universidad(Facebook, twitter, instagram)
+	-Poner informacion de interes o actual(revistas, paginas de tecnologia)
+-Organigrama del departamento con fotos de calidad, correo de la institucion, numero de telefono de la universidad 
+y edificio en donde se encuentran.
+
+NOTA: *En identidad buho podemos ver los colores por numero hexadecimal, escudo de la universidad.
+      
+
+	

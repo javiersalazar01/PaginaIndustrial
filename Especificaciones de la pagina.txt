@@ -11,6 +11,7 @@ Azul marino, dorado, blanco.
 	-Pagina de la universidad
 	-Redes oficiales de la universidad(Facebook, twitter, instagram)
 	-Poner informacion de interes o actual(revistas, paginas de tecnologia)
+	-Poner informacion del Servicio Medico y Mobilidad Estudiantes
 -Organigrama del departamento con fotos de calidad, correo de la institucion, numero de telefono de la universidad 
 y edificio en donde se encuentran.
 

@@ -100,9 +100,12 @@ h2 {
 .social-icons .fa-youtube:hover{
   color: #ec5538
 }
+.social-icons .fa-camera-retro:hover{
+  color:#443B23;
+}
 
 .navbar-brand {
-  background-color: #1B7B98;
+  background-color: #253876;
   height: 90px;
   margin-bottom: 20px;
   position: relative;
@@ -115,7 +118,7 @@ h2 {
 }
 
 .navbar-right {
-  background-color: #1B7B98;
+  background-color: #253876;
   padding:0 95px 0 0;
   opacity: .9
 }
@@ -138,7 +141,7 @@ h2 {
 
 
 .fixed-menu {
-  background-color: #1B7B98;
+  background-color: #253876;
   position: fixed;
   top: 0;
 }

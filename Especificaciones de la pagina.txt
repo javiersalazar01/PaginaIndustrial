@@ -17,4 +17,25 @@ y edificio en donde se encuentran.
 NOTA: *En identidad buho podemos ver los colores por numero hexadecimal, escudo de la universidad.
       
 
-	
+************Notas Dani*************
+**Menu:
+	-Inicio
+		-Noticias (las ultimas 2, 3 o 4)
+		-Pagina Csti
+		-Link reportes
+		-Mision, Vision	
+		-Valores (?)
+		
+	-Departamento
+		-Lista de maestros
+		-Organigrama
+		-Mapa de los edificios
+		-Fechas importantes
+		-Practicas profesionales
+		
+	-Noticias
+	-Oferta Educativa
+		-Carreras
+		-Maestrías
+	-
+	-Datos de interes	

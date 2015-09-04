@@ -51,9 +51,12 @@ h2 {
 .menu{
   background-color: #253876;
 }
+
 .navbar-nav > li > a {
-color: white;
+color: #fff;
+
 }
+
 
 /*************************
 *******Header CSS******
@@ -101,16 +104,13 @@ color: white;
 }
 
 
-
-
-
 .navbar-right {
   padding: 0;
 }
 
 
 .navbar-right li a {
-  font-size: 18px;
+  font-size: 16px;
   padding: 20px 25px;
   text-shadow:inherit;
 }
@@ -128,3 +128,19 @@ color: white;
   top: 0;
 }
 
+.navbar-right li a:hover, 
+.navbar-right li a:focus{
+  background-color: #fff;
+  color: #16728f
+}
+
+.dropdown-menu, .dropdown-menu li a{
+  background-color: #253876;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px!important;
+}
+.dropdowm-menu li a{
+  margin:0px;
+  padding: 0px!important;
+}

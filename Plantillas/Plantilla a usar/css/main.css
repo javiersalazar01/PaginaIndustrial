@@ -80,7 +80,7 @@ h2 {
 }
 
 .social-icons a {
-  font-size: 18px;
+  font-size: 28px;
   color: #fff;
   padding-left:20px;  
 }
@@ -114,7 +114,7 @@ h2 {
 
 .navbar-brand img {
   position: absolute;
-  top: -20px;
+  top: -10px;
   padding-bottom: -10px;
 }
 
@@ -420,13 +420,19 @@ h2 {
 
 
 .notti {
-  color: #E8CC66!important;
+  color: #ff9900!important;
   font-size: 42px;
   font-weight: 300;
   margin-bottom: 40px;
   margin-top: 70px;
   text-transform: uppercase;
   font-weight: bold;
+  text-align: center;
+}
+
+.notvis{
+  color: #ff9900!important;
+  text-transform: uppercase;
   text-align: center;
 }
 
@@ -482,6 +488,12 @@ h2 {
   width: 100%;
   display: flex;
   padding: 20px;
+  color: white;
+
+}
+
+.h2{
+   color: #cc9900; 
 }
 
 .guitar2 {
@@ -532,8 +544,7 @@ h2 {
 **************************/
 
 #twitter {
-  background-color: #ecedef;
-  background-color: white;
+  background-color: #white;
   padding: 95px 0 90px;
   overflow: hidden;
 }

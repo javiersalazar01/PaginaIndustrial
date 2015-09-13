@@ -80,7 +80,7 @@ h2 {
 }
 
 .social-icons a {
-  font-size: 28px;
+  font-size: 18px;
   color: #fff;
   padding-left:20px;  
 }
@@ -114,7 +114,7 @@ h2 {
 
 .navbar-brand img {
   position: absolute;
-  top: -10px;
+  top: -20px;
   padding-bottom: -10px;
 }
 
@@ -186,6 +186,15 @@ h2 {
 /*************************
 *******Home CSS******
 **************************/
+.fa-arrow-down {
+  position: fixed;
+  bottom: 0;
+  left: 98%;
+  margin-left: -30px;
+  width: 40px;
+  height: 40px;
+  cursor:pointer;
+}
 
 #home {
   position: relative;
@@ -193,13 +202,14 @@ h2 {
 }
 
 #main-slider img {
-  width: 100%
+  width: 100%;
+ 
 }
 
 #main-slider 
 .carousel-caption {
   background: none repeat scroll 0 0 #000000;
-  bottom: 14%;
+  bottom: 25%;
   float: left;
   left: 0;
   opacity: 0.8;
@@ -210,6 +220,9 @@ h2 {
   text-align: left;
 }
 
+#main-slider .carusel-inner{
+  height: 447px!important;
+}
 
 #main-slider 
 .carousel-caption h2 {  
@@ -420,19 +433,13 @@ h2 {
 
 
 .notti {
-  color: #ff9900!important;
+  color: #E8CC66!important;
   font-size: 42px;
   font-weight: 300;
   margin-bottom: 40px;
   margin-top: 70px;
   text-transform: uppercase;
   font-weight: bold;
-  text-align: center;
-}
-
-.notvis{
-  color: #ff9900!important;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -488,12 +495,6 @@ h2 {
   width: 100%;
   display: flex;
   padding: 20px;
-  color: white;
-
-}
-
-.h2{
-   color: #cc9900; 
 }
 
 .guitar2 {
@@ -544,7 +545,8 @@ h2 {
 **************************/
 
 #twitter {
-  background-color: #white;
+  background-color: #ecedef;
+  background-color: white;
   padding: 95px 0 90px;
   overflow: hidden;
 }
@@ -712,7 +714,6 @@ h2 {
 #footer {
   background-color: #212121;
   
- 
   color: #FFFFFF;
   font-size: 20px;
   padding: 35px 0;

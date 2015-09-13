@@ -17,6 +17,53 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+    <script type="text/javascript">
+jQuery(function($) {
+  
+  var $sections = $('.section'),
+    $animContainer = $('html, body'),
+    $document = $(document),
+    numSections = $sections.length,
+    currSection = 0,
+    isAnimating = false;
+  
+  // Animate to a specific index.
+  var gotoSection = function(index) {
+    isAnimating = true;
+    $animContainer.animate({
+      scrollTop: $sections.eq(index).offset().top
+    }, 750, function () {
+      isAnimating = false;
+    });
+  };
+  
+  // Advance to next or previous section.
+  var handleAction = function(direction) {
+    if (isAnimating) { return false; }
+    
+    if (direction === 'prev' && currSection > 0) { currSection--; }
+    else if (direction === 'next' && currSection < numSections - 1) { currSection++; }
+    else { return false; } // This shouldn't happen.
+    
+    gotoSection(currSection);
+  };
+  
+  // Handle clicks.
+  $document.on('click', '.action', function() {
+    handleAction($(this).data('direction'));
+  });
+  
+  // Handle keyboard input.
+  $document.keyup(function(e){
+    if (e.keyCode === 38) { handleAction('prev'); } // Up arrow.
+    if (e.keyCode === 40) { handleAction('next'); } // Down arrow.
+  });
+  
+});
+
+
+    </script>
 </head><!--/head-->
 
 <body>
@@ -82,7 +129,7 @@
     <!--/#header--> 
 
     <section id="home">	
-		<div id="main-slider" class="carousel slide" data-ride="carousel">
+		<div id="main-slider" class="carousel slide" data-ride="carousel" style="width=1348px; height:720px">
 			<ol class="carousel-indicators">
 				<li data-target="#main-slider" data-slide-to="0" class="active"></li>
 				<li data-target="#main-slider" data-slide-to="1"></li>
@@ -111,6 +158,8 @@
 					</div>
 				</div>				
 			</div>
+			
+			<a href="#scrolldown"><i class="fa fa-arrow-down fa-2x action" data-direction="next" ></i></a>
 		</div>    	
     </section>
 	<!--/#home-->

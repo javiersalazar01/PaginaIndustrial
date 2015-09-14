@@ -1,0 +1,29 @@
+CREATE TABLE IF NOT EXISTS `maestros` (
+  `id_maestro` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `cubiculo` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id_maestro`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
+
+CREATE TABLE IF NOT EXISTS `jefatura` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `encargado` varchar(255) NOT NULL,
+  `cargo` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `ubicacion` varchar(255) DEFAULT NULL,
+  `telefono` varchar(255) DEFAULT NULL,
+  `imagen` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
+
+CREATE TABLE IF NOT EXISTS `coordinacion` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `coordinador` varchar(80) NOT NULL,
+  `cordinacion` varchar(150) NOT NULL,
+  `ubicacion` varchar(250) DEFAULT NULL,
+  `email` varchar(100) NOT NULL,
+  `telefono` varchar(100) DEFAULT NULL,
+  `imagen` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1;

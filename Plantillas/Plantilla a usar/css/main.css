@@ -627,9 +627,15 @@ h2 {
 
 .cstiLogo{
   width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .reporteslogo{
   width: 215px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 

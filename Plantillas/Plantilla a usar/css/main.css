@@ -200,6 +200,7 @@ h2 {
 #home {
   position: relative;
   overflow: hidden;
+
  
 }
 
@@ -208,7 +209,10 @@ h2 {
  
 }
 #main-slider{
-   height:100vh;  
+   height:100vh;
+}
+.carusel{
+  height:100vh;
 }
 
 #main-slider 
@@ -512,6 +516,11 @@ h2 {
   text-align: center;
 }
 
+.tituloA{
+    color: #E8CC66!important;
+    text-align: center;
+    font-weight: bold;
+}
 .guitar2 {
   top: 0;
   width: 50%;
@@ -630,19 +639,17 @@ h2 {
 
 
 .cstiLogo{
-  width: 300px;
-  display: block;
+  height: 120px;
+  max-height: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 .reporteslogo{
-  width: 215px;
-  display: block;
+  max-height: 200px;
+  height: 120px;
   margin-left: auto;
   margin-right: auto;
 }
-
-
 
 
 /*************************
@@ -742,10 +749,9 @@ h2 {
   overflow: hidden;
   padding: 0px 0 20px;
   color: 222223;
-<<<<<<< HEAD
-=======
+
   padding-top: 20px;
->>>>>>> Dani-Branch
+
 }
 
 #footer a {

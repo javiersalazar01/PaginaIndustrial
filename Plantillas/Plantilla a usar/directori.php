@@ -95,7 +95,7 @@
             <tr>
               <td>Dra. Nora Elba Mungía Vega</td>
               <td>Coordinación de Programa de Maestría en Sustentabilidad y Especialidad en Desarrollo Sustentable</td>
-              <td></td>
+              <td>nmunguia@industrial.uson.mx</td>
               <td>Edificio 5O Planta Baja</td>
               <td>2771</td>
             </tr>

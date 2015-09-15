@@ -79,7 +79,7 @@
          						    </ul>
      					    </li>                               
 		                    <li ><a href="c.php">Sitios de interes</a></li>
-		                    <li ><a href="c.php">Contacto</a></li>       
+		                    <li ><a href="c.php">EVENTOS</a></li>       
 		                </ul>
 		            </div>
 		        </div>
@@ -103,21 +103,21 @@
 					<img class="img-responsive" src="images/slider/ind1.jpg" alt="slider">						
 					<div class="carousel-caption">
 						<h2>Conoce tu departamento</h2>
-						<a href="#contact" >Ir a la sección de Noticias <i class="fa fa-angle-right"></i></a>
+						<a href="#noticias" >Ir a la sección de Noticias <i class="fa fa-angle-right"></i></a>
 					</div>
 				</div>
 				<div class="item">
 					<img class="img-responsive" src="images/slider/ind2.jpg" alt="slider">	
 					<div class="carousel-caption">
 						<h2>Conoce tu departamento</h2>
-						<a href="#contact" >Ir a la sección de Noticias <i class="fa fa-angle-right"></i></a>
+						<a href="#noticias" >Ir a la sección de Noticias <i class="fa fa-angle-right"></i></a>
 					</div>
 				</div>
 				<div class="item">
 					<img class="img-responsive" src="images/slider/ind3.jpg" alt="slider">	
 					<div class="carousel-caption">
 						<h2>Conoce tu departamento</h2>
-						<a href="#contact" >Ir a la sección de Noticias <i class="fa fa-angle-right"></i></a>
+						<a href="#noticias" >Ir a la sección de Noticias <i class="fa fa-angle-right"></i></a>
 					</div>
 				</div>				
 			</div>
@@ -139,9 +139,10 @@
 								<div class="row">
 									<div class="col-sm-4">
 										<div class="single-event">
-											<img class="img-responsive" src="images/noticias/n1.jpg" alt="event-image">
-											<h4>Alumnos han...</h4>
-											<h5>Ing Mecatronica</h5>
+											<img class="img-responsive" src="images/noticias/not1.jpg" alt="event-image">
+											<h4 class="text-justify">Obtiene docente de Ingeniería en Mecatrónica grado de doctor</h4>
+											<h5>María Elena Anaya Pérez obtuvo el Doctorado en Ingeniería Mecatrónica...</h5>
+											<a href="noticia1.php">Leer más...</a>
 										</div>
 									</div>
 									<div class="col-sm-4">

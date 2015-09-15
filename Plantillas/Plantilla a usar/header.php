@@ -69,7 +69,7 @@
          						    </ul>
      					    </li>                               
 		                    <li ><a href="c.php">SITIOS DE INTERES</a></li>
-		                    <li ><a href="c.php">CONTACTO</a></li>        
+		                    <li ><a href="c.php">EVENTOS</a></li>        
 		                </ul>
 		            </div>
    

@@ -111,7 +111,6 @@ body .container{
         <th>NOMBRE</th>
         <th>CARGO</th>
         <th>CORREO ELECTRONICO</th>
-        <th>EXTENCION</th>
         <th>UBICACION</th>
         <th>TELEFONO</th>
         </tr>
@@ -120,9 +119,7 @@ body .container{
 
 <div class="container"></div>
 <?php 
-  $result = "SELECT *  FROM directorio WHERE cargo LIKE '%Jefe%'
-  OR cargo LIKE '%Secre%'
-  ORDER BY cargo ASC ";
+  $result = "SELECT *  FROM jefatura ORDER BY cargo ASC ";
   $cad = mysqli_query($conn,$result) or die ( 'error al listar, $pegar' .mysqli_error($conn)); 
   //calculamos las paginas a mostrar
 
@@ -130,12 +127,11 @@ body .container{
   while ($row = mysqli_fetch_array($cad)) {
 ?>
  <tr> 
-<td align="center"><?php echo $row['name']; ?></td>
+<td align="center"><?php echo $row['encargado']; ?></td>
 <td align="center"><?php echo $row['cargo']; ?></td>
 <td align="center"><?php echo $row['email']; ?></td>
-<td align="center"><?php echo $row['ext']; ?></td>
 <td align="center"><?php echo $row['ubicacion']; ?></td>
-<td align="center"><?php echo $row['tel']; ?></td>
+<td align="center"><?php echo $row['telefono']; ?></td>
   </tr>    
         
 <?php  }?>
@@ -149,9 +145,8 @@ body .container{
     <thead>
       <tr>
         <th>NOMBRE</th>
-        <th>CARGO</th>
+        <th>COORDINACION</th>
         <th>CORREO ELECTRONICO</th>
-        <th>EXTENCION</th>
         <th>UBICACION</th>
         <th>TELEFONO</th>
         </tr>
@@ -160,9 +155,7 @@ body .container{
 
 <div class="container"></div>
 <?php 
-  $result = "SELECT *  FROM directorio WHERE cargo LIKE '%Coordinad%'
-  OR cargo LIKE '%Responsable%'
-  ORDER BY cargo ASC ";
+  $result = "SELECT *  FROM coordinacion ORDER BY coordinacion ASC ";
   $cad = mysqli_query($conn,$result) or die ( 'error al listar, $pegar' .mysqli_error($conn)); 
   //calculamos las paginas a mostrar
 
@@ -170,12 +163,11 @@ body .container{
   while ($row = mysqli_fetch_array($cad)) {
 ?>
  <tr> 
-<td align="center"><?php echo $row['name']; ?></td>
-<td align="center"><?php echo $row['cargo']; ?></td>
+<td align="center"><?php echo $row['coordinador']; ?></td>
+<td align="center"><?php echo $row['cordinacion']; ?></td>
 <td align="center"><?php echo $row['email']; ?></td>
-<td align="center"><?php echo $row['ext']; ?></td>
 <td align="center"><?php echo $row['ubicacion']; ?></td>
-<td align="center"><?php echo $row['tel']; ?></td>
+<td align="center"><?php echo $row['telefono']; ?></td>
   </tr>    
         
 <?php   

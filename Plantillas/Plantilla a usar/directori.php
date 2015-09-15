@@ -115,6 +115,85 @@
         </table>
       
     </div>
+
+        <h1 class="titulos">Responsables del Programa: Prácticas Profesionales</h3>
+
+      <div class="col-md-10 col-md-offset-1">
+        <table class="table table-bordered text-center">
+          <thead align="center">
+            <tr>
+              <th>Nombre</th>
+              <th>Programa Académico</th>
+              <th>Correo Electrónico</th>
+              <th>Ubicación</th>
+              <th>Extension</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>M.C. Felix Montaño Valle</td>
+              <td>Responsable del Programa de Ingeniería Industrial y de Sistemas</td>
+              <td>felixm@industrial.uson.mx</td>
+              <td>Edificio 5R Planta baja</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Dr. Mario Barcelo Valenzuela</td>
+              <td>Responsable de Programa de Ingeniería en Sistemas de Información</td>
+              <td>mbarcelo@industrial.uson.mx</td>
+              <td>Edificio 5O Secc. C</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>M.C. Ramón Alberto Luque Morales</td>
+              <td>Responsable de Programa de Ingeniería Mecatrónica</td>
+              <td>rluque@industrial.uson.mx</td>
+              <td>Edificio 5J Planta Baja</td>
+              <td>2767</td>
+            </tr>
+          </tbody>
+        </table>
+      
+    </div>
+
+    <h1 class="titulos">Responsables del Programa: Tutorías</h3>
+
+      <div class="col-md-10 col-md-offset-1">
+        <table class="table table-bordered text-center">
+          <thead align="center">
+            <tr>
+              <th>Nombre</th>
+              <th>Programa Académico</th>
+              <th>Correo Electrónico</th>
+              <th>Ubicación</th>
+              <th>Extension</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dra. Yna María Dávila Rascón</td>
+              <td>Responsable del Programa de Ingeniería Industrial y de Sistemas</td>
+              <td>idavila@industrial.uson.mx</td>
+              <td>Edificio 5O Secc. B</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Responsable de Programa de Ingeniería en Sistemas de Información</td>
+              <td> </td>
+              <td>Edificio 5O Secc. C</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Dr. Castillo Ortega Rafael</td>
+              <td>Responsable de Programa de Ingeniería Mecatrónica</td>
+              <td>rcastillo@industrial.uson.mx</td>
+              <td>Edificio 5O Secc. B</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     
   </div>
   <br>

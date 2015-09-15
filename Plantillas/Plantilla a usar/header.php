@@ -51,7 +51,6 @@
            								 <li><a href="c.php">MAESTROS</a></li>
            								 <li><a href="directori.php">DIRECTORIO</a></li>
            								 <li><a href="c.php">MAPA</a></li>
-           								 <li><a href="c.php">FECHAS IMPORTANTES</a></li>
            								 <li><a href="c.php">PRÁCTICAS PROFESIONALES</a></li>
          						    </ul>
      					    </li> 
@@ -62,10 +61,13 @@
           							<ul class="dropdown-menu">
            								 <li><a href="industrial.php">ING. INDUSTRIAL Y DE SISTEMAS</a></li>
            								 <li><a href="sistemas.php">ING. EN SISTEMAS DE INFORMACIÓN</a></li>
-           								 <li><a href="mecatronica.php">ING. EN MECATRONICA</a></li>
+           								 <li><a href="mecatronica.php">ING. MECATRÓNICA</a></li>
                            <li><a href="http://mii.isi.uson.mx">POSGRADO EN ING. INDUSTRIAL</a></li>
                            <li><a href="http://www.gds.uson.mx/ms">MAESTRÍA EN SUSTENTABILIDAD</a></li>
                            <li><a href="http://www.gds.uson.mx/eds">ESPECIALIDAD EN DESARROLLO SUSTENTABLE</a></li>
+                           <li><a href="http://mii.isi.uson.mx/">MAESTRÍA EN INGENIERÍA EN SISTEMAS Y TECNOLOGÍA</a></li>
+
+                           
          						    </ul>
      					    </li>                               
 		                    <li ><a href="c.php">SITIOS DE INTERES</a></li>

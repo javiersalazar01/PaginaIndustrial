@@ -33,7 +33,7 @@
             </tr>
             <tr>
               <td>Secretaria Administrativa</td>
-              <td>M.A. Elsy Guadalupe Parada Ruiz</td>
+              <td>M.A. Elsy Guadalupe Parada Ruíz</td>
               <td>eparada@industrial.uson.mx</td>
               <td>2755</td>
             </tr>
@@ -87,7 +87,7 @@
             </tr>
             <tr>
               <td>Dr. Alonso Pérez Soltero</td>
-              <td>Coordinación de Programa de Maestría en Ingeniería Sistemas y Tecnología</td>
+              <td>Coordinación de Programa de Maestría en Ingeniería en Sistemas y Tecnología</td>
               <td>aperez@industrial.uson.mx</td>
               <td>Edificio 5O Planta Baja</td>
               <td>2761</td>
@@ -102,9 +102,9 @@
             <tr>
               <td>Dra. María Teresa Sertuche</td>
               <td>Coordinadora Divisonal de Servicio Social</td>
-              <td></td>
+              <td>N/A</td>
               <td>Edificio 5O Planta Baja</td>
-              <td></td>
+              <td>N/A</td>
             </tr>
           </tbody>
           <tfoot>
@@ -135,14 +135,14 @@
               <td>Responsable del Programa de Ingeniería Industrial y de Sistemas</td>
               <td>felixm@industrial.uson.mx</td>
               <td>Edificio 5R Planta baja</td>
-              <td></td>
+              <td>N/A</td>
             </tr>
             <tr>
               <td>Dr. Mario Barcelo Valenzuela</td>
               <td>Responsable de Programa de Ingeniería en Sistemas de Información</td>
               <td>mbarcelo@industrial.uson.mx</td>
               <td>Edificio 5O Secc. C</td>
-              <td></td>
+              <td>N/A</td>
             </tr>
             <tr>
               <td>M.C. Ramón Alberto Luque Morales</td>
@@ -175,21 +175,21 @@
               <td>Responsable del Programa de Ingeniería Industrial y de Sistemas</td>
               <td>idavila@industrial.uson.mx</td>
               <td>Edificio 5O Secc. B</td>
-              <td></td>
+              <td>N/A</td>
             </tr>
             <tr>
-              <td></td>
+              <td>N/A</td>
               <td>Responsable de Programa de Ingeniería en Sistemas de Información</td>
-              <td> </td>
+              <td>N/A</td>
               <td>Edificio 5O Secc. C</td>
-              <td></td>
+              <td>N/A</td>
             </tr>
             <tr>
               <td>Dr. Castillo Ortega Rafael</td>
               <td>Responsable de Programa de Ingeniería Mecatrónica</td>
               <td>rcastillo@industrial.uson.mx</td>
               <td>Edificio 5O Secc. B</td>
-              <td></td>
+              <td>N/A</td>
             </tr>
           </tbody>
         </table>

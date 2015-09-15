@@ -200,11 +200,15 @@ h2 {
 #home {
   position: relative;
   overflow: hidden;
+ 
 }
 
 #main-slider img {
   width: 100%;
  
+}
+#main-slider{
+   height:100vh;  
 }
 
 #main-slider 
@@ -440,7 +444,6 @@ h2 {
   margin-bottom: 40px;
   margin-top: 70px;
   text-transform: uppercase;
-  font-weight: bold;
   text-align: center;
 }
 
@@ -496,6 +499,17 @@ h2 {
   width: 100%;
   display: flex;
   padding: 20px;
+}
+
+.misfont {
+  color: #E8CC66!important;
+  font-size: 42px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
 }
 
 .guitar2 {
@@ -615,14 +629,19 @@ h2 {
 }
 
 
-
-
 .cstiLogo{
   width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .reporteslogo{
-  width: 170px;
+  width: 215px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 
 
@@ -712,16 +731,22 @@ h2 {
 ******Footer CSS****
 **************************/
 
+
 #footer {
-  background-color: #212121;
-  
-  color: #FFFFFF;
-  font-size: 20px;
-  padding: 35px 0;
+  background-color: #dcb800;
+  background-image: url("../images/footer_amarillo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat:no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding: 0px 0 20px;
+  color: 222223;
+  padding-top: 20px;
 }
 
 #footer a {
-  color:#f7ab24
+  color:#10069f
 }
 
 #footer a:hover {

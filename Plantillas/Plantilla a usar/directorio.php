@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php 
+include "conexion.php";
+?>
+
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -17,6 +22,25 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+<style type="text/css">
+body{
+
+  color: black;
+}
+table th{
+  text-align: center;
+}
+table td{
+ vertical-align: center;
+}
+
+body .container{
+  margin-left: 10px;
+}
+
+</style>
+
+
 </head><!--/head-->
 
 <body>
@@ -79,21 +103,81 @@
 		</nav>
 
 	</header>
-
+  <H1 align="center">JEFATURA DEL DEPARTAMENTO DE INSDUSTRIAL</H1>
   <br>
-  <br>
-  <div class="container contenido">
-    <div class="col-md-12">
-      <div class="col-md-4  col-md-offset-4">
-         <img class="img-responsive" src="images/caution.png">
-      </div>
-      
-     
-    </div>
-    <div class="text-center">
-        <h2 style="color:black">Página en construcción</h2>
-      </div>
-  </div>
+<table class="table table-hover table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>NOMBRE</th>
+        <th>CARGO</th>
+        <th>CORREO ELECTRONICO</th>
+        <th>UBICACION</th>
+        <th>TELEFONO</th>
+        </tr>
+    </thead>
+    <tbody>
 
+<div class="container"></div>
+<?php 
+  $result = "SELECT *  FROM jefatura ORDER BY cargo ASC ";
+  $cad = mysqli_query($conn,$result) or die ( 'error al listar, $pegar' .mysqli_error($conn)); 
+  //calculamos las paginas a mostrar
+
+
+  while ($row = mysqli_fetch_array($cad)) {
+?>
+ <tr> 
+<td align="center"><?php echo $row['encargado']; ?></td>
+<td align="center"><?php echo $row['cargo']; ?></td>
+<td align="center"><?php echo $row['email']; ?></td>
+<td align="center"><?php echo $row['ubicacion']; ?></td>
+<td align="center"><?php echo $row['telefono']; ?></td>
+  </tr>    
+        
+<?php  }?>
+</tbody>
+  </table>
+  <br>
+
+<H1 align="center">Coordinadores de los Programas adscritos al Departamento</H1>
+  <br>
+<table class="table table-hover table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>NOMBRE</th>
+        <th>COORDINACION</th>
+        <th>CORREO ELECTRONICO</th>
+        <th>UBICACION</th>
+        <th>TELEFONO</th>
+        </tr>
+    </thead>
+    <tbody>
+
+<div class="container"></div>
+<?php 
+  $result = "SELECT *  FROM coordinacion ORDER BY coordinacion ASC ";
+  $cad = mysqli_query($conn,$result) or die ( 'error al listar, $pegar' .mysqli_error($conn)); 
+  //calculamos las paginas a mostrar
+
+
+  while ($row = mysqli_fetch_array($cad)) {
+?>
+ <tr> 
+<td align="center"><?php echo $row['coordinador']; ?></td>
+<td align="center"><?php echo $row['cordinacion']; ?></td>
+<td align="center"><?php echo $row['email']; ?></td>
+<td align="center"><?php echo $row['ubicacion']; ?></td>
+<td align="center"><?php echo $row['telefono']; ?></td>
+  </tr>    
+        
+<?php   
+  }
+
+
+?>
+</tbody>
+  </table>
+
+</form>
 </body>
 </html>

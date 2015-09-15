@@ -24,7 +24,7 @@
 
 <body>
 	
-	<!--<p class="fa fa-arrow-down fa-2x action"></p>-->
+	<p class="fa fa-arrow-down fa-2x action"></p>
 	 <!--<a href="#scrolldown"><i class="fa fa-arrow-down fa-2x action" data-direction="next" ></i></a>
 		-->
 	<header id="header" role="banner">		
@@ -59,7 +59,7 @@
           						<span class="caret"></span></a>
           							<ul class="dropdown-menu">
            								 <li><a href="./c.php">Maestros</a></li>
-           								 <li><a href="./organigrama.php">Directorio</a></li>
+           								 <li><a href="./directori.php">Directorio</a></li>
            								 <li><a href="./c.php">Mapa</a></li>
            								 <li><a href="./c.php">Fechas importantes</a></li>
            								 <li><a href="./c.php">Prácticas Profesionales</a></li>

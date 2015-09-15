@@ -14,8 +14,8 @@
             <tr> 
               <th>Cargo</th>
               <th>Encargado</th>
-              <th>Correo Electronico</th>
-              <th>Extencion</th>
+              <th>Correo Electrónico</th>
+              <th>Extensión</th>
             </tr>
           </thead>
           <tbody>
@@ -26,13 +26,13 @@
               <td>2756</td>
             </tr>
             <tr>
-              <td>Secretaria Académico</td>
-              <td>Dra. Margarita Valenzuela Galvan</td>
+              <td>Secretaria Académica</td>
+              <td>Dra. Margarita Valenzuela Galván</td>
               <td>secretariaacademica@industrial.uson.mx</td>
               <td>2754</td>
             </tr>
             <tr>
-              <td>Secretaria Administrativo</td>
+              <td>Secretaria Administrativa</td>
               <td>M.A. Elsy Guadalupe Parada Ruiz</td>
               <td>eparada@industrial.uson.mx</td>
               <td>2755</td>
@@ -57,10 +57,10 @@
           <thead align="center">
             <tr>
               <th>Nombre</th>
-              <th>Coordinacion</th>
-              <th>Correo Electronico</th>
+              <th>Coordinación</th>
+              <th>Correo Electrónico</th>
               <th>Ubicación</th>
-              <th>Extencion</th>
+              <th>Extensión</th>
             </tr>
           </thead>
           <tbody>

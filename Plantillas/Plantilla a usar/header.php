@@ -49,7 +49,7 @@
           						<span class="caret"></span></a>
           							<ul class="dropdown-menu">
            								 <li><a href="c.php">MAESTROS</a></li>
-           								 <li><a href="organigrama.php">ORGANIGRAMA</a></li>
+           								 <li><a href="directori.php">DIRECTORIO</a></li>
            								 <li><a href="c.php">MAPA</a></li>
            								 <li><a href="c.php">FECHAS IMPORTANTES</a></li>
            								 <li><a href="c.php">PRÁCTICAS PROFESIONALES</a></li>

@@ -61,7 +61,6 @@
            								 <li><a href="./c.php">Maestros</a></li>
            								 <li><a href="./directori.php">Directorio</a></li>
            								 <li><a href="./c.php">Mapa</a></li>
-           								 <li><a href="./c.php">Fechas importantes</a></li>
            								 <li><a href="./c.php">Prácticas Profesionales</a></li>
          						    </ul>
      					    </li> 

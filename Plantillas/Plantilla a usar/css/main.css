@@ -200,11 +200,15 @@ h2 {
 #home {
   position: relative;
   overflow: hidden;
+ 
 }
 
 #main-slider img {
   width: 100%;
  
+}
+#main-slider{
+   height:100vh;  
 }
 
 #main-slider 
@@ -640,6 +644,7 @@ h2 {
 
 
 
+
 /*************************
 ******Contact CSS****
 **************************/
@@ -737,6 +742,10 @@ h2 {
   overflow: hidden;
   padding: 0px 0 20px;
   color: 222223;
+<<<<<<< HEAD
+=======
+  padding-top: 20px;
+>>>>>>> Dani-Branch
 }
 
 #footer a {

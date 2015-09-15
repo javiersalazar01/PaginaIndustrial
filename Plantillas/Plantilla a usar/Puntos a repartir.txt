@@ -14,4 +14,8 @@ Oferta educativa (Carreras, maestrias)
 
 ---------------------Diseño----------------------------------
 Footer 					-Karla
+<<<<<<< HEAD
 Terminar Mision, Vision, Valores	-Karla
+=======
+Terminar Mision, Vision, Valores	-Karla
+>>>>>>> Dani-Branch

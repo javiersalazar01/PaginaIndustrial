@@ -17,11 +17,16 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+
    
 </head><!--/head-->
 
 <body>
+	
+	<!--<p class="fa fa-arrow-down fa-2x action"></p>-->
+	 <!--<a href="#scrolldown"><i class="fa fa-arrow-down fa-2x action" data-direction="next" ></i></a>
+		-->
 	<header id="header" role="banner">		
 		<div class="main-nav">
 			<div class="container">
@@ -48,33 +53,33 @@
 		            </div>
 		            <div class="collapse navbar-collapse">
 		                <ul class="nav navbar-nav navbar-right">                 
-		                    <li ><a href="#home" >Inicio</a></li>
+		                    <li ><a href="./index.php" >Inicio</a></li>
 		                    <li class="dropdown">
-          						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Departamento
+          						<a class="dropdown-toggle" data-toggle="dropdown" >Departamento
           						<span class="caret"></span></a>
           							<ul class="dropdown-menu">
-           								 <li><a href="maestros.php">Maestros</a></li>
-           								 <li><a href="directorio.html">Directorio</a></li>
-           								 <li><a href="#">Mapa</a></li>
-           								 <li><a href="#">Fechas importantes</a></li>
-           								 <li><a href="#">Prácticas Profesionales</a></li>
+           								 <li><a href="./c.php">Maestros</a></li>
+           								 <li><a href="./organigrama.php">Directorio</a></li>
+           								 <li><a href="./c.php">Mapa</a></li>
+           								 <li><a href="./c.php">Fechas importantes</a></li>
+           								 <li><a href="./c.php">Prácticas Profesionales</a></li>
          						    </ul>
      					    </li> 
-     					    <li ><a href="#">Noticias</a></li>
+     					    <li ><a href="./c.php">Noticias</a></li>
      					    <li class="dropdown">
-          						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Oferta Educativa
+          						<a class="dropdown-toggle" data-toggle="dropdown">Oferta Educativa
           						<span class="caret"></span></a>
           							<ul class="dropdown-menu">
-           								 <li><a href="#">Posgrado en Ingeniería Industrial</a></li>
-           								 <li><a href="#">Maestría en Sustentabilidad</a></li>
-           								 <li><a href="#">Especialidad en Desarrollo Sustentable</a></li>
-           								 <li><a href="#">Ing. Industrial y de Sistemas</a></li>
-           								 <li><a href="#">Ing. en Sistemas de información</a></li>
-           								 <li><a href="#">Ing. en Mecatronica</a></li>
+           								 <li><a href="./industrial.php">Ing. Industrial y de Sistemas</a></li>
+           								 <li><a href="./sistemas.php">Ing. en Sistemas de información</a></li>
+           								 <li><a href="./mecatronica.php">Ing. en Mecatronica</a></li>
+           								 <li><a href="http://mii.isi.uson.mx">POSGRADO EN ING. INDUSTRIAL</a></li>
+                       			 	     <li><a href="http://www.gds.uson.mx/ms">MAESTRÍA EN SUSTENTABILIDAD</a></li>
+                     				     <li><a href="http://www.gds.uson.mx/eds">ESPECIALIDAD EN DESARROLLO SUSTENTABLE</a></li>
          						    </ul>
      					    </li>                               
-		                    <li ><a href="#">Sitios de interes</a></li>
-		                    <li ><a href="#">Contacto</a></li>       
+		                    <li ><a href="c.php">Sitios de interes</a></li>
+		                    <li ><a href="c.php">Contacto</a></li>       
 		                </ul>
 		            </div>
 		        </div>
@@ -84,6 +89,7 @@
 
     <!--/#header--> 
    
+
 
     <section id="home">	
 		<div id="main-slider" class="carousel slide" data-ride="carousel" >
@@ -115,9 +121,8 @@
 					</div>
 				</div>				
 			</div>
-			
-			
-		</div>    	
+		</div>    
+
     </section>
 
 
@@ -293,6 +298,7 @@
   
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+ 
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
   	<script type="text/javascript" src="js/gmaps.js"></script>
 	<script type="text/javascript" src="js/smoothscroll.js"></script>

@@ -13,9 +13,8 @@ body {
 }
 
 
-
-
 a {
+  font-family: 'Dosis', sans-serif;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
   -o-transition: 300ms;
@@ -28,16 +27,6 @@ a:hover {
   outline: none
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Yanone Kaffeesatz', 'sans-serif';
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 36px
-}
-
 .navbar-toggle {
   margin-top: 12px
 }
@@ -45,8 +34,6 @@ h2 {
 .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-
-
 
 .menu{
   background-color: #253876;
@@ -67,7 +54,9 @@ color: #fff;
   overflow: hidden;
   padding: 25px;
 }
-
+header{
+  width: 100%;
+}
 
 .main-nav 
 .container {
@@ -80,7 +69,7 @@ color: #fff;
   padding-right: 25px;
   padding-top: 2px;
   padding-bottom: 2px;
-
+  margin-right: 0px;
 }
 .social-icons a {
   font-size: 18px;
@@ -108,11 +97,11 @@ color: #fff;
   color:#443B23;
 }
 
-
 .navbar-right {
   padding: 0;
 
 }
+
 .menu{
   border-top: inset 1px; 
 }
@@ -148,10 +137,92 @@ color: #fff;
 .dropdown-menu, .dropdown-menu li a{
   background-color: #253876;
   color: #fff;
-  font-size: 12px;
+  font-size: 18px;
   padding: 10px!important;
 }
 
 .contenido{
  
 }
+
+/*************************
+********Contenido CSS****
+************************/
+.container {
+  font-family: 'Open Sans', sans-serif!important;
+  color: black; 
+  text-align: justify;
+  min-height: 65vh;
+}
+
+.tCarrera, .titulos{
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  color: #E8CC66!important;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2{
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-weight: bold;
+  color: #253876;
+  
+  font-size: 28px;
+}
+.list-unstyled{
+  font-weight: 500;
+  color: #253876;
+}
+
+.container a:hover{
+   color: #E8CC66;
+}
+.tituloAsig{
+  text-align: center;
+  text-transform: uppercase;
+  color: #253876;
+}
+
+/************************
+***tablas CSS************
+*************************/
+.container th{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+   color: #253876;
+}
+
+.container tfoot{
+  color: black!important;
+  font-weight: bold;
+}
+
+/*************************
+******Footer CSS****
+**************************/
+
+
+#footer {
+  background-color: #dcb800;
+  background-image: url("../images/footer_amarillo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat:no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding: 0px 0 20px;
+  color: 222223;
+
+  padding-top: 20px;
+
+}
+
+#footer a {
+  color:#10069f
+}
+
+#footer a:hover {
+  color:#1B7B98
+}
+

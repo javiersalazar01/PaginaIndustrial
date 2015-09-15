@@ -106,7 +106,7 @@
 		},
 		
 		getHash: function($link) {
-			return $link.attr('href').split('#')[1];
+			return $link.attr('href').split('')[1];
 		},
 		
 		getPositions: function() {
@@ -191,7 +191,7 @@
 			
 			//If the position is set
 			if(position !== null) {
-				$parent = this.$elem.find('a[href$="#' + position + '"]').parent();
+				$parent = this.$elem.find('a[href$="' + position + '"]').parent();
 				
 				//If it's not already the current section
 				if(!$parent.hasClass(this.config.currentClass)) {

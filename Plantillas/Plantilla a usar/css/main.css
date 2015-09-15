@@ -27,7 +27,6 @@ a {
   transition: 300ms;
 }
 
-a:focus, 
 a:hover {
   text-decoration: none;
   outline: none
@@ -51,8 +50,7 @@ h2 {
   background-color: #fff;
 }
 
-.navbar-toggle, 
-.navbar-toggle:focus {
+.navbar-toggle{
   border:1px solid #fff;
   outline: none;
 }
@@ -66,6 +64,9 @@ h2 {
   display: block;
   overflow: hidden;
   padding: 25px;
+  position: static;
+  width: 100%;
+  z-index: 999;
 }
 
 .main-nav {
@@ -74,7 +75,7 @@ h2 {
   z-index: 999;
 }
 
-.main-nav 
+
 .container {
   width: 100%
 }
@@ -140,8 +141,7 @@ h2 {
   padding: 10px!important;
 }
 
-.navbar-right li a:hover, 
-.navbar-right li a:focus{
+.navbar-right li a:hover{
   background-color: #fff;
   color: #16728f
 }
@@ -194,14 +194,16 @@ h2 {
   margin-left: -30px;
   width: 40px;
   height: 40px;
-  cursor:pointer;
+  color: green;
+  cursor: default;
+  z-index: 10;
 }
+
 
 #home {
   position: relative;
   overflow: hidden;
-
- 
+  height: 100vh;
 }
 
 #main-slider img {
@@ -272,16 +274,27 @@ h2 {
 
 #main-slider 
 .carousel-indicators li {
-  background-color:#1B7B98;
-  border: 1px solid #1B7B98;
+  background-color:#E8CC66;
+  border: 1px solid #E8CC66;
 }
 
 #main-slider 
 .carousel-indicators li.active {
   background-color:#fff;
-  border: 1px solid #fff;
+  border: 1px solid#E8CC66;
 }
 
+@media screen and (max-width: 600px) {
+    #home {
+        height: 200px;
+    }
+    .carousel-indicators{
+      ;
+    }
+    p{
+      font-size: 12px;
+    }
+}
 /*************************
 *******Explore CSS******
 **************************/
@@ -449,6 +462,7 @@ h2 {
   margin-top: 70px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
 }
 
 .single-event {
@@ -494,7 +508,7 @@ h2 {
 
 
 /*************************
-*******About CSS**********
+**Nision y vsion CSS******
 **************************/
 
 #MisionVision {
@@ -504,6 +518,8 @@ h2 {
   display: flex;
   padding: 20px;
 }
+
+
 
 .misfont {
   color: #E8CC66!important;
@@ -704,9 +720,6 @@ h2 {
   font-size: 18px;
 }
 
-#contact-section .form-control:focus {
-  border-color: #ae750d;
-}
 
 #contact-section input {  
   height: 44px;
@@ -751,7 +764,7 @@ h2 {
   color: 222223;
 
   padding-top: 20px;
-
+  z-index: 20;
 }
 
 #footer a {

@@ -54,7 +54,7 @@
            								 <li><a href="c.php">PRÁCTICAS PROFESIONALES</a></li>
          						    </ul>
      					    </li> 
-     					    <li ><a href="c.php">NOTICIAS</a></li>
+     					    <li ><a href="noticias.php">NOTICIAS</a></li>
      					    <li class="dropdown">
           						<a class="dropdown-toggle" data-toggle="dropdown" href="#">OFERTA EDUCATIVA
           						<span class="caret"></span></a>

@@ -64,7 +64,7 @@
            								 <li><a href="./c.php">Prácticas Profesionales</a></li>
          						    </ul>
      					    </li> 
-     					    <li ><a href="./c.php">Noticias</a></li>
+     					    <li ><a href="./noticias.php">Noticias</a></li>
      					    <li class="dropdown">
           						<a class="dropdown-toggle" data-toggle="dropdown">Oferta Educativa
           						<span class="caret"></span></a>
@@ -150,24 +150,26 @@
 								<div class="row">
 									<div class="col-sm-4">
 										<div class="single-event">
-											<img class="img-responsive" src="images/noticias/not1.jpg" alt="event-image">
+											<img class="img-responsive not-img" src="images/noticias/not1.jpg" alt="event-image">
 											<h4 class="text-justify">Obtiene docente de Ingeniería en Mecatrónica grado de doctor</h4>
-											<h5>María Elena Anaya Pérez obtuvo el Doctorado en Ingeniería Mecatrónica...</h5>
+											<h5>María Elena Anaya Pérez obtuvo el Doctorado en Ingeniería Mecatrónica en la Universidad...</h5>
 											<a href="noticia1.php">Leer más...</a>
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="single-event">
-											<img class="img-responsive" src="images/noticias/n2.jpg" >
-											<h4>Experimentos</h4>
-											<h5>nuevos</h5>
+											<img class="img-responsive not-img" src="images/noticias/not2.jpg" >
+											<h4 class="text-justify">Invitan a participar de la próxima aplicación del examen EGEL de Ceneval</h4>
+											<h5>El próximo 27 de noviembre, la Universidad de Sonora será sede nacional de la aplicación del Examen General...</h5>
+											<a href="noticia2.php">Leer más...</a>
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="single-event">
-											<img class="img-responsive" src="images/noticias/n3.jpg" alt="event-image">
-											<h4>Presentacion</h4>
-											<h5>Libro</h5>
+											<img class="img-responsive not-img" src="images/noticias/not3.jpg" alt="event-image">
+											<h4 class="text-justify">Obtienen alumnos de Mecatrónica premios en Certamen Nacional de Prototipos</h4>
+											<h5 class="text-justify">Cuatro estudiantes del quinto semestre de la carrera de Ingeniería Mecatrónica...</h5>
+											<a href="noticia3.php">Leer más...</a>
 										</div>
 									</div>
 								</div>
@@ -176,23 +178,26 @@
 								<div class="row">
 									<div class="col-sm-4">
 										<div class="single-event">
-											<img class="img-responsive" src="images/noticias/n1.jpg" alt="event-image">
-											<h4>Alumnos han...</h4>
-											<h5>Ing Mecatronica</h5>
+											<img class="img-responsive not-img" src="images/noticias/not1.jpg" alt="event-image">
+											<h4 class="text-justify">Obtiene docente de Ingeniería en Mecatrónica grado de doctor</h4>
+											<h5>María Elena Anaya Pérez obtuvo el Doctorado en Ingeniería Mecatrónica en la Universidad...</h5>
+											<a href="noticia1.php">Leer más...</a>
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="single-event">
-											<img class="img-responsive" src="images/noticias/n2.jpg" >
-											<h4>Experimentos</h4>
-											<h5>nuevos</h5>
+											<img class="img-responsive not-img" src="images/noticias/not2.jpg" >
+											<h4 class="text-justify">Invitan a participar de la próxima aplicación del examen EGEL de Ceneval</h4>
+											<h5>El próximo 27 de noviembre, la Universidad de Sonora será sede nacional de la aplicación del Examen General...</h5>
+											<a href="noticia2.php">Leer más...</a>
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="single-event">
-											<img class="img-responsive" src="images/noticias/n3.jpg" alt="event-image">
-											<h4>Presentacion</h4>
-											<h5>Libro</h5>
+											<img class="img-responsive not-img" src="images/noticias/not3.jpg" alt="event-image">
+											<h4 class="text-justify">Obtienen alumnos de Mecatrónica premios en Certamen Nacional de Prototipos</h4>
+											<h5 class="text-justify">Cuatro estudiantes del quinto semestre de la carrera de Ingeniería Mecatrónica...</h5>
+											<a href="noticia3.php">Leer más...</a>
 										</div>
 									</div>
 								</div>
@@ -226,50 +231,50 @@
 				<div class="col-sm-6 col-sm-offset-4">
 					<div class="text-center carousel-inner center-block">
 						<div class="item active">
-							<p>Valores</p>
+							<p>VALORES</p>
 							<h2 class="heading notti">LIDERAZGO PARTICIPATIVO</h2>
 						</div>
 						<div class="item">
 							
-							<p>Valores</p>
+							<p>VALORES</p>
 							<h2 class="heading notti">comunicacion productiva</h2>
 						</div>
 						<div class="item">
-							<p>Valores</p>
+							<p>VALORES</p>
 							<h2 class="heading notti">actitud positiva</h2>
 						</div>
 						<div class="item">
-							<p>Valores</p>
+							<p>VALORES</p>
 							<h2 class="heading notti">Integración</h2>
 
 						</div>
 						<div class="item">
-							<p>Valores</p>
+							<p>VALORES</p>
 							<h2 class="heading notti">Trabajo en equipo</h2>
 						</div>
 						<div class="item">
-							<p>Valores</p>
+							<p>VALORES</p>
 							<h2 class="heading notti">Calidad de vida institucional</h2>
 						</div>
 						<div class="item">
-							<p>Valores</p>
+							<p>VALORES</p>
 
 						</div>
 						<div class="item">
-							<p>Valores</p>
+							<p>VALORES</p>
 							<h2 class="heading notti">Trabajo en equipo</h2>
 						</div>
 						<div class="item">
-							<p>Valores</p>
+							<p>VALORES</p>
 							<h2 class="heading notti">Calidad de vida institucional</h2>
 						</div>
 						<div class="item">
-							<p>Valores</p>
+							<p>VALORES</p>
 
 							<h2 class="heading notti">Impulso a fortalecer la capacidad profesional</h2>
 						</div>
 						<div class="item">
-							<p>Valores</p>
+							<p>VALORES</p>
 							<h2 class="heading notti">Compromiso en el cumplimiento del Plan de Desarrollo Institucional</h2>
 						</div>
 					</div>

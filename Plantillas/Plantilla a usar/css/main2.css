@@ -236,3 +236,6 @@ h2{
   color: #253876;
   font-weight: 600;
 }
+.tituloNoticia{
+  text-transform: uppercase;
+}

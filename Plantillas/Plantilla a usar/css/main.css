@@ -487,8 +487,15 @@ position:relative;
   right:40px;
   top: 80px;
 }
+#noticias a:hover{
+  color: #E8CC66;
+}
 
-
+.not-img{
+  padding-left: 20px;
+   margin-left: 10px;
+  margin-right: auto;
+}
 .notti {
   color: #E8CC66!important;
   font-size: 42px;

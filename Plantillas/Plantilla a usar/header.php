@@ -58,26 +58,17 @@
      					    <li class="dropdown">
           						<a class="dropdown-toggle" data-toggle="dropdown" href="#">OFERTA EDUCATIVA
           						<span class="caret"></span></a>
-          						<ul class="dropdown-menu">
-                           <li><a>Programas Académicos</a>
-  <ul>
-                 <li><a href="industrial.php">Ing. Industrial y de Sistemas</a></li>
-                    <li><a href="./sistemas.php">Ing. en Sistemas de información</a></li>
-                    <li><a href="./mecatronica.php">Ing. en Mecatronica</a></li>
-                </ul>
-                           </li>
+          							<ul class="dropdown-menu">
+           								 <li><a href="industrial.php">ING. INDUSTRIAL Y DE SISTEMAS</a></li>
+           								 <li><a href="sistemas.php">ING. EN SISTEMAS DE INFORMACIÓN</a></li>
+           								 <li><a href="mecatronica.php">ING. MECATRÓNICA</a></li>
+                           <li><a href="http://mii.isi.uson.mx">POSGRADO EN ING. INDUSTRIAL</a></li>
+                           <li><a href="http://www.gds.uson.mx/ms">MAESTRÍA EN SUSTENTABILIDAD</a></li>
+                           <li><a href="http://www.gds.uson.mx/eds">ESPECIALIDAD EN DESARROLLO SUSTENTABLE</a></li>
+                           <li><a href="http://mii.isi.uson.mx/">MAESTRÍA EN INGENIERÍA EN SISTEMAS Y TECNOLOGÍA</a></li>
 
-                           <li><a>Posgrados</a>
-  <ul>
-                                  <li><a href="http://mii.isi.uson.mx">POSGRADO EN ING. INDUSTRIAL</a></li>
-                                   <li><a href="http://www.gds.uson.mx/ms">MAESTRÍA EN SUSTENTABILIDAD</a></li>
-                                 <li><a href="http://www.gds.uson.mx/eds">ESPECIALIDAD EN DESARROLLO SUSTENTABLE</a></li>
-                </ul>
-                           </li>
-
-                          
                            
-                        </ul>
+         						    </ul>
      					    </li>                               
 		                    <li ><a href="c.php">SITIOS DE INTERES</a></li>
 		                    <li ><a href="c.php">EVENTOS</a></li>        

@@ -141,45 +141,10 @@ h2 {
   padding: 10px!important;
 }
 
-
-.dropdown-menu li ul {
-display:none;
-position:absolute;
-min-width:140px;
-right:-178px;
-top:0;
-list-style-type:none; 
-
+.navbar-right > li a:hover{
+  background-color: #fff;
+  color: #16728f
 }
-
-.dropdown-menu li ul li{
-  top: 0;
-  padding-bottom: 11px;
-  vertical-align: left;
-}
-
-.dropdown-menu li ul li a{
-background-color: #253876;
-  color: #fff;
-  font-size: 14px;
-  padding: 10px!important;
-
-}
-
-
-.dropdown-menu li ul li a:hover {
-background:#fff;
-color: black;
-}
-
-.dropdown-menu li:hover > ul {
-display:block;
-}
-.dropdown-menu li  {
-position:relative;
-}
-
- 
 
 
 .fixed-menu {
@@ -216,6 +181,53 @@ position:relative;
 .fixed-menu .header-top {
   display: none;
 }
+/************************
+**menu oferta educativa*
+************************/
+
+.dropRight li{
+    text-align:center;  
+    font-size: 18px;
+}
+
+.dropRight ul li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.dropRight li ul{
+    display:none;
+    position: absolute;
+    right: -100%;
+    background-color:#253876;
+
+}
+.dropRight ul li:hover, a:hover{
+    background-color: white;
+}
+.dropRight li ul li{
+    margin-bottom: 20px;    
+}
+
+.dropRight li:hover ul{
+    display:block;
+   
+    top: 0px;
+    margin-right: 100px;
+    text-decoration: none;
+    list-style: none;
+    width: 270px;
+    right: -200%;
+}
+
+
+.dropRight li ul li a{
+    font-size: 18px;  
+    color:white;
+   
+}
+
 
 
 

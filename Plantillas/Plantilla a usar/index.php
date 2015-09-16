@@ -67,27 +67,23 @@
      					    <li ><a href="./noticias.php">Noticias</a></li>
      					    <li class="dropdown">
           						<a class="dropdown-toggle" data-toggle="dropdown">Oferta Educativa
-          						<span class="caret"></span></a>
+          							<span class="caret"></span></a>
           							<ul class="dropdown-menu">
            								 <li><a>Programas Académicos</a>
-  <ul>
-  	        		 <li><a href="industrial.php">Ing. Industrial y de Sistemas</a></li>
-                    <li><a href="./sistemas.php">Ing. en Sistemas de información</a></li>
-                    <li><a href="./mecatronica.php">Ing. en Mecatronica</a></li>
-                </ul>
+ 											<ul>
+  	        									 <li><a href="./industrial.php">Ing. Industrial y de Sistemas</a></li>
+                    							 <li><a href="./sistemas.php">Ing. en Sistemas de información</a></li>
+                  								 <li><a href="./mecatronica.php">Ing. en Mecatronica</a></li>
+       				        				</ul>
            								 </li>
-
            								 <li><a>Posgrados</a>
-  <ul>
-  	        	        	        	<li><a href="http://mii.isi.uson.mx">POSGRADO EN ING. INDUSTRIAL</a></li>
-                       			 	     <li><a href="http://www.gds.uson.mx/ms">MAESTRÍA EN SUSTENTABILIDAD</a></li>
-                     				     <li><a href="http://www.gds.uson.mx/eds">ESPECIALIDAD EN DESARROLLO SUSTENTABLE</a></li>
-                </ul>
+ 											<ul>
+  	        	        	        			<li><a href="http://mii.isi.uson.mx">POSGRADO EN ING. INDUSTRIAL</a></li>
+                       			 	   			<li><a href="http://www.gds.uson.mx/ms">MAESTRÍA EN SUSTENTABILIDAD</a></li>
+                     				    		<li><a href="http://www.gds.uson.mx/eds">ESPECIALIDAD EN DESARROLLO SUSTENTABLE</a></li>
+               								</ul>
            								 </li>
-
-           								
-           								 
-         						    </ul>
+         						   </ul>
      					    </li>                               
 		                    <li ><a href="c.php">Sitios de interes</a></li>
 		                    <li ><a href="c.php">EVENTOS</a></li>       

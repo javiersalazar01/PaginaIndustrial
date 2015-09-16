@@ -188,6 +188,7 @@ h2 {
 .dropRight li{
     text-align:center;  
     font-size: 18px;
+    margin-left: 0;
 }
 
 .dropRight ul li{
@@ -205,9 +206,6 @@ h2 {
 }
 .dropRight ul li:hover, a:hover{
     background-color: white;
-}
-.dropRight li ul li{
-    margin-bottom: 20px;    
 }
 
 .dropRight li:hover ul{

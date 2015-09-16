@@ -58,15 +58,22 @@
      					    <li class="dropdown">
           						<a class="dropdown-toggle" data-toggle="dropdown" href="#">OFERTA EDUCATIVA
           						<span class="caret"></span></a>
-          							<ul class="dropdown-menu">
-           								 <li><a href="industrial.php">ING. INDUSTRIAL Y DE SISTEMAS</a></li>
-           								 <li><a href="sistemas.php">ING. EN SISTEMAS DE INFORMACIÓN</a></li>
-           								 <li><a href="mecatronica.php">ING. MECATRÓNICA</a></li>
-                           <li><a href="http://mii.isi.uson.mx">POSGRADO EN ING. INDUSTRIAL</a></li>
-                           <li><a href="http://www.gds.uson.mx/ms">MAESTRÍA EN SUSTENTABILIDAD</a></li>
-                           <li><a href="http://www.gds.uson.mx/eds">ESPECIALIDAD EN DESARROLLO SUSTENTABLE</a></li>
-                           <li><a href="http://mii.isi.uson.mx/">MAESTRÍA EN INGENIERÍA EN SISTEMAS Y TECNOLOGÍA</a></li>
+          							<ul class="dropdown-menu dropRight">
+                           <li><a>PROGRAMAS ACADÉMICOS</a>
+                    <ul>
+                           <li><a href="./industrial.php">ING. INDUSTRIAL Y DE SISTEMAS</a></li>
+                               <li><a href="./sistemas.php">ING. EN SISTEMAS DE INFORMACIÓN</a></li>
+                               <li><a href="./mecatronica.php">ING. EM MECATRONICA</a></li>
+                          </ul>
+                           </li>
 
+                           <li><a>POSGRADOS</a>
+                  <ul>
+                                  <li><a href="http://mii.isi.uson.mx">POSGRADO EN ING. INDUSTRIAL</a></li>
+                                   <li><a href="http://www.gds.uson.mx/ms">MAESTRÍA EN SUSTENTABILIDAD</a></li>
+                                 <li><a href="http://www.gds.uson.mx/eds">ESPECIALIDAD EN DESARROLLO SUSTENTABLE</a></li>
+                        </ul>
+                           </li>
                            
          						    </ul>
      					    </li>                               

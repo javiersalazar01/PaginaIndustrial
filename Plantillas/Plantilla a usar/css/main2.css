@@ -144,6 +144,67 @@ header{
 .contenido{
  
 }
+.dropdown-toggle:hover{
+  cursor: pointer;
+}
+/************************
+**menu oferta educativa*
+************************/
+
+.dropRight li{
+    text-align:center;  
+    font-size: 18px;
+    margin-left: 0;
+}
+
+.dropRight ul li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0px;
+    padding-left: 0;
+
+}
+.dropRight ul{
+  padding: 0!important;
+}
+
+.dropRight li ul{
+    display:none;
+    position: absolute;
+    right: -100%;
+    background-color:#253876;
+    margin: 0px;
+    padding-left: 0;
+    margin-left: 0px;
+    margin-right: 100px;
+    width: 100px;
+
+}
+
+
+.dropRight > li:hover{
+  background-color: white!important;
+  color: #253876!important;
+  cursor: pointer;
+}
+.dropRight li:hover ul{
+    display:block;
+    top: 0px;
+    text-decoration: none;
+    list-style: none;
+    width: 270px;
+    right: -360px;
+
+}
+.dropRight a{
+  padding: 10px;
+}
+
+.dropRight li ul li a{
+    font-size: 16px;  
+    color:white;
+   
+}
 
 /*************************
 ********Contenido CSS****

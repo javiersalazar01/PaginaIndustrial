@@ -181,6 +181,10 @@ h2 {
 .fixed-menu .header-top {
   display: none;
 }
+
+.dropdown-toggle:hover{
+  cursor: pointer;
+}
 /************************
 **menu oferta educativa*
 ************************/
@@ -195,6 +199,11 @@ h2 {
     padding-bottom: 10px;
     padding-top: 10px;
     margin: 0px;
+    padding-left: 0;
+
+}
+.dropRight ul{
+  padding: 0!important;
 }
 
 .dropRight li ul{
@@ -202,26 +211,35 @@ h2 {
     position: absolute;
     right: -100%;
     background-color:#253876;
+    margin: 0px;
+    padding-left: 0;
+    margin-left: 0px;
+    margin-right: 100px;
+    width: 100px;
 
 }
-.dropRight ul li:hover, a:hover{
-    background-color: white;
-}
 
+
+.dropRight > li:hover{
+  background-color: white!important;
+  color: #253876!important;
+  cursor: pointer;
+}
 .dropRight li:hover ul{
     display:block;
-   
     top: 0px;
-    margin-right: 100px;
     text-decoration: none;
     list-style: none;
     width: 270px;
-    right: -200%;
+    right: -360px;
+
+}
+.dropRight a{
+  padding: 10px;
 }
 
-
 .dropRight li ul li a{
-    font-size: 18px;  
+    font-size: 16px;  
     color:white;
    
 }

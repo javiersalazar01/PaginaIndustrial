@@ -99,24 +99,43 @@
               <td>Edificio 5O Planta Baja</td>
               <td>2771</td>
             </tr>
-            <tr>
-              <td>Dra. María Teresa Sertuche</td>
-              <td>Coordinadora Divisonal de Servicio Social</td>
-              <td>N/A</td>
-              <td>Edificio 5O Planta Baja</td>
-              <td>N/A</td>
-            </tr>
+          
           </tbody>
           <tfoot>
             <td colspan="5" class="tfooter" >
-              Teléfono: (662) 259-22-83, Fax (662) 259-21-60
+              Teléfono: (662) 259-21-59, Fax (662) 259-21-60
             </td>
           </tfoot>
         </table>
       
     </div>
 
-        <h1 class="titulos">Responsables del Programa: Prácticas Profesionales</h3>
+   <h1 class="titulos">Responsables del Programa: Servicio Social</h1>
+
+      <div class="col-md-10 col-md-offset-1">
+        <table class="table table-bordered text-center">
+          <thead align="center">
+            <tr>
+              <th>Nombre</th>
+              <th>Programa Académico</th>
+              <th>Correo Electrónico</th>
+              <th>Ubicación</th>
+              <th>Extension</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dra. María Teresa Sertucha</td>
+              <td>Coordinadora Divisonal de Servicio Social</td>
+              <td>mtsertucha@iq.uson.mx</td>
+              <td>Edificio 5R Planta Alta</td>
+              <td>2578</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+        <h1 class="titulos">Responsables del Programa: Prácticas Profesionales</h1>
 
       <div class="col-md-10 col-md-offset-1">
         <table class="table table-bordered text-center">
@@ -151,12 +170,19 @@
               <td>Edificio 5J Planta Baja</td>
               <td>2767</td>
             </tr>
+              <tr>
+              <td>M.C. Ramón Alberto Luque Morales</td>
+              <td>Responsable de Programa de Ingeniería Mecatrónica</td>
+              <td>rluque@industrial.uson.mx</td>
+              <td>Edificio 5J Planta Baja</td>
+              <td>2767</td>
+            </tr>
           </tbody>
         </table>
       
     </div>
 
-    <h1 class="titulos">Responsables del Programa: Tutorías</h3>
+    <h1 class="titulos">Responsables del Programa: Tutorías</h1>
 
       <div class="col-md-10 col-md-offset-1">
         <table class="table table-bordered text-center">

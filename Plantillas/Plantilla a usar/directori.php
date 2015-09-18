@@ -99,13 +99,6 @@
               <td>Edificio 5O Planta Baja</td>
               <td>2771</td>
             </tr>
-            <tr>
-              <td>Dra. María Teresa Sertuche</td>
-              <td>Coordinadora Divisonal de Servicio Social</td>
-              <td>N/A</td>
-              <td>Edificio 5O Planta Baja</td>
-              <td>N/A</td>
-            </tr>
           </tbody>
           <tfoot>
             <td colspan="5" class="tfooter" >
@@ -115,6 +108,33 @@
         </table>
       
     </div>
+
+  <h1 class="titulos">Responsable del Programa de Servicio Social</h3>
+
+      <div class="col-md-10 col-md-offset-1">
+        <table class="table table-bordered text-center">
+          <thead align="center">
+            <tr>
+              <th>Nombre</th>
+              <th>Programa Académico</th>
+              <th>Correo Electrónico</th>
+              <th>Ubicación</th>
+              <th>Extension</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dra. María Teresa Sertucha</td>
+              <td>Coordinadora Divisonal de Servicio Social</td>
+              <td>mtsercha@iq.uson.mx</td>
+              <td>Edificio 5R, Planta Alta</td>
+              <td>2578</td>
+            </tr>
+          </tbody>
+        </table>      
+    </div>
+
+
 
         <h1 class="titulos">Responsables del Programa: Prácticas Profesionales</h3>
 
@@ -138,11 +158,11 @@
               <td>N/A</td>
             </tr>
             <tr>
-              <td>Dr. Mario Barcelo Valenzuela</td>
+              <td>Dr. Mario Barceló Valenzuela</td>
               <td>Responsable de Programa de Ingeniería en Sistemas de Información</td>
               <td>mbarcelo@industrial.uson.mx</td>
               <td>Edificio 5O Secc. C</td>
-              <td>N/A</td>
+              <td>2760</td>
             </tr>
             <tr>
               <td>M.C. Ramón Alberto Luque Morales</td>
@@ -151,10 +171,19 @@
               <td>Edificio 5J Planta Baja</td>
               <td>2767</td>
             </tr>
+            <tr>
+              <td>Dra. Maria Elena Anaya</td>
+              <td>Responsable de la Coordinacion Divisional de Practicas Profesionales</td>
+              <td>meanya@industrial.uson.mx</td>
+              <td>Edificio 5J Planta Baja</td>
+              <td>2578</td>
+            </tr>
           </tbody>
-        </table>
-      
+        </table>      
     </div>
+
+
+
 
     <h1 class="titulos">Responsables del Programa: Tutorías</h3>
 
@@ -175,21 +204,21 @@
               <td>Responsable del Programa de Ingeniería Industrial y de Sistemas</td>
               <td>idavila@industrial.uson.mx</td>
               <td>Edificio 5O Secc. B</td>
-              <td>N/A</td>
+              <td>2759</td>
             </tr>
             <tr>
-              <td>N/A</td>
+              <td>Dra. Yna Maria Davila Rascón</td>
               <td>Responsable de Programa de Ingeniería en Sistemas de Información</td>
-              <td>N/A</td>
-              <td>Edificio 5O Secc. C</td>
-              <td>N/A</td>
+              <td>idavila@industrial.uson.mx</td>
+              <td>Edificio 5O Secc. B</td>
+              <td>2759</td>
             </tr>
             <tr>
               <td>Dr. Castillo Ortega Rafael</td>
               <td>Responsable de Programa de Ingeniería Mecatrónica</td>
               <td>rcastillo@industrial.uson.mx</td>
               <td>Edificio 5O Secc. B</td>
-              <td>N/A</td>
+              <td>2759</td>
             </tr>
           </tbody>
         </table>

@@ -69,6 +69,13 @@ h2 {
   z-index: 999;
 }
 
+.escudo{
+  margin-top: 18px;
+width: 82%;
+
+
+}
+
 .main-nav {
   position: absolute;
   width: 100%;
@@ -110,7 +117,7 @@ h2 {
   height: 90px;
   margin-bottom: 20px;
   position: relative;
-  width: 297px;
+  width: 125px;
 }
 
 .navbar-brand img {
@@ -122,7 +129,12 @@ h2 {
 .navbar-right {
   background-color: #253876;
   padding:0 95px 0 0;
-  opacity: .9
+  opacity: .9;
+  padding-right: 0;
+}
+
+.logo-industrial{
+width: 200px;
 }
 
 .navbar-right li a {

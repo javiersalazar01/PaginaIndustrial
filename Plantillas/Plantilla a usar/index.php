@@ -73,13 +73,13 @@
   <ul>
   	        		 <li><a href="industrial.php">Ing. Industrial y de Sistemas</a></li>
                     <li><a href="./sistemas.php">Ing. en Sistemas de información</a></li>
-                    <li><a href="./mecatronica.php">Ing. en Mecatronica</a></li>
+                    <li><a href="./mecatronica.php">Ing. Mecatrónica</a></li>
                 </ul>
            								 </li>
 
            								 <li><a>Posgrados</a>
   <ul>
-  	        	        	        	<li><a href="http://mii.isi.uson.mx">POSGRADO EN ING. INDUSTRIAL</a></li>
+  	        	        	        	<li><a href="http://mii.isi.uson.mx">MAESTRÍA EN INGENIERÍA EN SISTEMAS Y TECNOLOGÍA</a></li>
                        			 	     <li><a href="http://www.gds.uson.mx/ms">MAESTRÍA EN SUSTENTABILIDAD</a></li>
                      				     <li><a href="http://www.gds.uson.mx/eds">ESPECIALIDAD EN DESARROLLO SUSTENTABLE</a></li>
                 </ul>
@@ -306,8 +306,11 @@
             <div class="text-center">
                    <p>  Departamento de Ingeniería Industrial | <a target="_blank" href="http://www.unison.edu.mx/">
                     Universidad de Sonora 2015 </a> 
+                    <br>
+                    Blvd. Luis Encinas y Rosales S/N, Col. Centro, Hermosillo, Sonora, México. (662) 259-21-00 y 259-22-00
                     <br> 
-                    Desarrollado por <a target="_blank" href="">Centro de Servicios de Tecnologías de la Información</a> | Edificio 5G-204 </p>                
+                    Desarrollado por <a target="_blank" href="">Centro de Servicios de Tecnologías de la Información</a> | Edificio 5G-204 
+                    </p>                
             </div>
         </div>
     </footer>

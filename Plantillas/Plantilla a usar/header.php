@@ -38,11 +38,12 @@
         			<span class="icon-bar"></span>                        
      				</button>
       				<a class="navbar-brand" href="index.php">
-      					<img class="img-responsive" src="images/logo.png" alt="logo">
+      					<img class="img-responsive" src="images/EscudoUson.png" alt="logo">
       				</a>
    				 </div>
 		            <div class="collapse navbar-collapse">
-		                <ul class="nav navbar-nav navbar-right">                 
+		                <ul class="nav navbar-nav navbar-right">  
+                        <li><img class="img-responsive logo-industrial" src="images/logo.png"></li>               
 		                    <li class=""><a href="index.php">INICIO</a></li>
 							<li class="dropdown">
           						<a class="dropdown-toggle" data-toggle="dropdown" href="#">DEPARTAMENTO

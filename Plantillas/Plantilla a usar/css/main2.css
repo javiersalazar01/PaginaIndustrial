@@ -134,6 +134,9 @@ header{
   color: #16728f
 }
 
+.logo-industrial{
+  width: 135px;
+}
 .dropdown-menu, .dropdown-menu li a{
   background-color: #253876;
   color: #fff;

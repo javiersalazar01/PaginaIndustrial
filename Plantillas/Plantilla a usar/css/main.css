@@ -186,8 +186,13 @@ width: 200px;
 }
 
 .fixed-menu .navbar-brand img {
-  height:60px;
-  top: 0;
+ 
+  top: -10px;
+  width: 60px;
+}
+
+.fixed-menu .navbar-right .logo-industrial{
+  width: 150px!important;
 }
 
 .fixed-menu .header-top {

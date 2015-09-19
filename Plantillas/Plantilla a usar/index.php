@@ -111,21 +111,21 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="item active">
-					<img class="img-responsive" src="images/slider/ind1.jpg" alt="slider">						
+					<img class="img-responsive" src="images/slider/ind1.JPG" alt="slider">						
 					<div class="carousel-caption">
 						<h2>Conoce tu departamento</h2>
 						<a href="#noticias" >Ir a la sección de Noticias <i class="fa fa-angle-right"></i></a>
 					</div>
 				</div>
 				<div class="item">
-					<img class="img-responsive" src="images/slider/ind2.jpg" alt="slider">	
+					<img class="img-responsive" src="images/slider/ind2.JPG" alt="slider">	
 					<div class="carousel-caption">
 						<h2>Conoce tu departamento</h2>
 						<a href="#noticias" >Ir a la sección de Noticias <i class="fa fa-angle-right"></i></a>
 					</div>
 				</div>
 				<div class="item">
-					<img class="img-responsive" src="images/slider/ind3.jpg" alt="slider">	
+					<img class="img-responsive" src="images/slider/ind3.JPG" alt="slider">	
 					<div class="carousel-caption">
 						<h2>Conoce tu departamento</h2>
 						<a href="#noticias" >Ir a la sección de Noticias <i class="fa fa-angle-right"></i></a>

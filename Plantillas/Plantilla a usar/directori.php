@@ -99,7 +99,10 @@
               <td>Edificio 5O Planta Baja</td>
               <td>2771</td>
             </tr>
+<<<<<<< HEAD
           
+=======
+>>>>>>> origin/master
           </tbody>
           <tfoot>
             <td colspan="5" class="tfooter" >
@@ -110,7 +113,11 @@
       
     </div>
 
+<<<<<<< HEAD
    <h1 class="titulos">Responsables del Programa: Servicio Social</h1>
+=======
+  <h1 class="titulos">Responsable del Programa de Servicio Social</h3>
+>>>>>>> origin/master
 
       <div class="col-md-10 col-md-offset-1">
         <table class="table table-bordered text-center">
@@ -127,6 +134,7 @@
             <tr>
               <td>Dra. María Teresa Sertucha</td>
               <td>Coordinadora Divisonal de Servicio Social</td>
+<<<<<<< HEAD
               <td>mtsertucha@iq.uson.mx</td>
               <td>Edificio 5R Planta Alta</td>
               <td>2578</td>
@@ -136,6 +144,19 @@
     </div>
 
         <h1 class="titulos">Responsables del Programa: Prácticas Profesionales</h1>
+=======
+              <td>mtsercha@iq.uson.mx</td>
+              <td>Edificio 5R, Planta Alta</td>
+              <td>2578</td>
+            </tr>
+          </tbody>
+        </table>      
+    </div>
+
+
+
+        <h1 class="titulos">Responsables del Programa: Prácticas Profesionales</h3>
+>>>>>>> origin/master
 
       <div class="col-md-10 col-md-offset-1">
         <table class="table table-bordered text-center">
@@ -157,11 +178,11 @@
               <td>N/A</td>
             </tr>
             <tr>
-              <td>Dr. Mario Barcelo Valenzuela</td>
+              <td>Dr. Mario Barceló Valenzuela</td>
               <td>Responsable de Programa de Ingeniería en Sistemas de Información</td>
               <td>mbarcelo@industrial.uson.mx</td>
               <td>Edificio 5O Secc. C</td>
-              <td>N/A</td>
+              <td>2760</td>
             </tr>
             <tr>
               <td>M.C. Ramón Alberto Luque Morales</td>
@@ -170,19 +191,34 @@
               <td>Edificio 5J Planta Baja</td>
               <td>2767</td>
             </tr>
+<<<<<<< HEAD
               <tr>
               <td>M.C. Ramón Alberto Luque Morales</td>
               <td>Responsable de Programa de Ingeniería Mecatrónica</td>
               <td>rluque@industrial.uson.mx</td>
               <td>Edificio 5J Planta Baja</td>
               <td>2767</td>
+=======
+            <tr>
+              <td>Dra. Maria Elena Anaya</td>
+              <td>Responsable de la Coordinacion Divisional de Practicas Profesionales</td>
+              <td>meanya@industrial.uson.mx</td>
+              <td>Edificio 5J Planta Baja</td>
+              <td>2578</td>
+>>>>>>> origin/master
             </tr>
           </tbody>
-        </table>
-      
+        </table>      
     </div>
 
+<<<<<<< HEAD
     <h1 class="titulos">Responsables del Programa: Tutorías</h1>
+=======
+
+
+
+    <h1 class="titulos">Responsables del Programa: Tutorías</h3>
+>>>>>>> origin/master
 
       <div class="col-md-10 col-md-offset-1">
         <table class="table table-bordered text-center">
@@ -201,21 +237,21 @@
               <td>Responsable del Programa de Ingeniería Industrial y de Sistemas</td>
               <td>idavila@industrial.uson.mx</td>
               <td>Edificio 5O Secc. B</td>
-              <td>N/A</td>
+              <td>2759</td>
             </tr>
             <tr>
-              <td>N/A</td>
+              <td>Dra. Yna Maria Davila Rascón</td>
               <td>Responsable de Programa de Ingeniería en Sistemas de Información</td>
-              <td>N/A</td>
-              <td>Edificio 5O Secc. C</td>
-              <td>N/A</td>
+              <td>idavila@industrial.uson.mx</td>
+              <td>Edificio 5O Secc. B</td>
+              <td>2759</td>
             </tr>
             <tr>
               <td>Dr. Castillo Ortega Rafael</td>
               <td>Responsable de Programa de Ingeniería Mecatrónica</td>
               <td>rcastillo@industrial.uson.mx</td>
               <td>Edificio 5O Secc. B</td>
-              <td>N/A</td>
+              <td>2759</td>
             </tr>
           </tbody>
         </table>

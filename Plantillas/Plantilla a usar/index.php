@@ -70,6 +70,7 @@
           						<span class="caret"></span></a>
           							<ul class="dropdown-menu dropRight">
            								 <li><a>Programas Académicos</a>
+
 								    <ul>
   	        							 <li><a href="./industrial.php">Ing. Industrial y de Sistemas</a></li>
                    						 <li><a href="./sistemas.php">Ing. en Sistemas de información</a></li>
@@ -80,6 +81,18 @@
            								 <li><a>Posgrados</a>
 									<ul>
   	        	        	        	<li><a href="http://mii.isi.uson.mx">POSGRADO EN ING. INDUSTRIAL</a></li>
+
+ 									 <ul>
+  	        		 <li><a href="industrial.php">Ing. Industrial y de Sistemas</a></li>
+                    <li><a href="./sistemas.php">Ing. en Sistemas de información</a></li>
+                    <li><a href="./mecatronica.php">Ing. Mecatrónica</a></li>
+                </ul>
+           								 </li>
+
+           								 <li><a>Posgrados</a>
+					  <ul>
+  	        	        	        	<li><a href="http://mii.isi.uson.mx">MAESTRÍA EN INGENIERÍA EN SISTEMAS Y TECNOLOGÍA</a></li>
+
                        			 	     <li><a href="http://www.gds.uson.mx/ms">MAESTRÍA EN SUSTENTABILIDAD</a></li>
                      				     <li><a href="http://www.gds.uson.mx/eds">ESPECIALIDAD EN DESARROLLO SUSTENTABLE</a></li>
           							</ul>
@@ -88,7 +101,8 @@
            								
            								 
          						    </ul>
-     					    </li>                               
+     					    </li>  
+     					    </ul>                             
 		                    <li ><a href="c.php">Sitios de interes</a></li>
 		                    <li ><a href="c.php">EVENTOS</a></li>       
 		                </ul>
@@ -150,10 +164,10 @@
 								<div class="row">
 									<div class="col-sm-4">
 										<div class="single-event">
-											<img class="img-responsive not-img" src="images/noticias/not1.jpg" alt="event-image">
-											<h4 class="text-justify">Obtiene docente de Ingeniería en Mecatrónica grado de doctor</h4>
-											<h5>María Elena Anaya Pérez obtuvo el Doctorado en Ingeniería Mecatrónica en la Universidad...</h5>
-											<a href="noticia1.php">Leer más...</a>
+											<img class="img-responsive not-img" src="images/noticias/not4.jpg" alt="event-image">
+											<h4 class="text-justify">Simulacro</h4>
+											<h5>Con motivo de la conmemoración del trigésimo aniversario del sismo ocurrido...</h5>
+											<a href="noticia4.php">Leer más...</a>
 										</div>
 									</div>
 									<div class="col-sm-4">
@@ -173,7 +187,7 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div><!--
 							<div class="item">
 								<div class="row">
 									<div class="col-sm-4">
@@ -201,7 +215,7 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div>-->
 						</div>
 					</div>
 				</div>
@@ -306,8 +320,11 @@
             <div class="text-center">
                    <p>  Departamento de Ingeniería Industrial | <a target="_blank" href="http://www.unison.edu.mx/">
                     Universidad de Sonora 2015 </a> 
+                    <br>
+                    Blvd. Luis Encinas y Rosales S/N, Col. Centro, Hermosillo, Sonora, México. (662) 259-21-00 y 259-22-00
                     <br> 
-                    Desarrollado por <a target="_blank" href="">Centro de Servicios de Tecnologías de la Información</a> | Edificio 5G-204 </p>                
+                    Desarrollado por <a target="_blank" href="">Centro de Servicios de Tecnologías de la Información</a> | Edificio 5G-204 
+                    </p>                
             </div>
         </div>
     </footer>

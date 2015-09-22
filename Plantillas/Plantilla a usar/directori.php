@@ -178,8 +178,8 @@
             <tr>
               <td>Dra. Maria Elena Anaya</td>
               <td>Responsable de la Coordinacion Divisional de Practicas Profesionales</td>
-              <td>meanya@industrial.uson.mx</td>
-              <td>Edificio 5J Planta Baja</td>
+               <td>meanaya@industrial.uson.mx</td>
+              <td>Edificio 5R Planta Alta</td>
               <td>2578</td>
 
             </tr>

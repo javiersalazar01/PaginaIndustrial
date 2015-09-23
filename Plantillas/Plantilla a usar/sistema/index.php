@@ -18,6 +18,8 @@
 		<form method="post" action="" role="login">
 			<section>
 				<h4 class="text-center">Sistema de noticias</h4>
+				<img src="assets/images/EscudoUson.png" width="100px" class="img-responsive">
+				
 				
 		
 				<div class="form-group">
@@ -34,7 +36,7 @@
 			</section>
 		</form>
 
-		</section>
+		
 	</section>
 	
 

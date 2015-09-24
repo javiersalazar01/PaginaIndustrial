@@ -15,10 +15,11 @@
 <body>
 	
 	<section class="container login-form">
+			<h2 class="text-center">SISTEMA DEL DEPARTAMENTO DE INGENIERÍA INDUSTRIAL</h2>
 		<form method="post" action="" role="login">
 			<section>
-				<h4 class="text-center">Sistema de noticias</h4>
-				<img src="assets/images/EscudoUson.png" width="100px" class="img-responsive">
+				
+				<img src="assets/images/EscudoUson.png" width="200px" class="img-responsive logo">
 				
 				
 		

@@ -7,7 +7,7 @@
 	outline: none;
 }
 body {
-	background-color: #253876;
+	background-color: #1d428a;
 }
 
 form[role=login] {
@@ -15,7 +15,7 @@ form[role=login] {
 	color: #696969;
 	max-width: 383px;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 80px;
 	background: #fff;
 	padding: 50px;
 	border-radius: 10px;
@@ -35,9 +35,10 @@ form[role=login] {
 	form[role=login] input[type=text],
 	form[role=login] input[type=password] {
 		font-size: 15px;
-		border: none;
-		background: #e5e4e4;
-		box-shadow: none;
+		
+		background: #F2F2F2;
+		box-shadow:;
+
 	}
 	form[role=login] > section button.btn-success {
 		font-size: 17px;
@@ -52,3 +53,13 @@ form[role=login] {
 	.signup a {
 		color: #fff;	
 	}
+
+.logo{
+	width: 200px;
+	margin-left: 40px;
+}
+h2{
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}

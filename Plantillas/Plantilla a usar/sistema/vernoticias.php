@@ -95,7 +95,7 @@ $total_paginas = ceil($total_registros / $registros);
       $i=0;
   
     while($row = mysqli_fetch_array($cad)) {
-      $ruta = "imagenes/" . $row['imagen'];
+      $ruta = "imagenesNoticias/" . $row['imagen'];
       if($i%2==0)
         $classname="evenRow";
           else

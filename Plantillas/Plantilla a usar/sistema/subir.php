@@ -30,7 +30,7 @@ if ($_FILES["imagen"]["error"] > 0){
 
 	if (in_array($_FILES['imagen']['type'], $permitidos) && $_FILES['imagen']['size'] <= $limite_kb * 1024){
 		//esta es la ruta donde copiaremos la imagen
-		$ruta = "imagenes/" . $_FILES['imagen']['name'];
+		$ruta = "imagenesNoticias/" . $_FILES['imagen']['name'];
 		//comprobamos si este archivo existe para no volverlo a copiar.
 		if (!file_exists($ruta)){
 			//aqui movemos el archivo desde la ruta temporal a nuestra ruta

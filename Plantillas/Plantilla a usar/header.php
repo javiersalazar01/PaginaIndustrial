@@ -64,7 +64,7 @@
                     <ul>
                            <li><a href="./industrial.php">ING. INDUSTRIAL Y DE SISTEMAS</a></li>
                                <li><a href="./sistemas.php">ING. EN SISTEMAS DE INFORMACIÓN</a></li>
-                               <li><a href="./mecatronica.php">ING. EM MECATRONICA</a></li>
+                               <li><a href="./mecatronica.php">ING. EN MECATRONICA</a></li>
                           </ul>
                            </li>
 

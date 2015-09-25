@@ -127,7 +127,7 @@
           </thead>
           <tbody>
             <tr>
-              <td>Dra. María Teresa Sertucha</td>
+              <td>Dra. María Teresa Certucha</td>
               <td>Coordinadora Divisonal de Servicio Social</td>
               <td>mtsertucha@iq.uson.mx</td>
               <td>Edificio 5R Planta Alta</td>

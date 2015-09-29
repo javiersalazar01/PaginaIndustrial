@@ -2,52 +2,51 @@
 <html>
 
 <?php 
-	include "header.php";
- ?>
-<!--Contenido de la pagina-->
-    <h1>Noticias</h1>
+	include "header.php"; ?>
+	<br>
+	<!--Contenido de la pagina-->
+	<h1 class="titulos">NOTICIAS DEL DEPARTAMENTO</h1>
+ 	<div class="container">
 
+ 	<div class="row noticias">
 <?php 
-include "conexion.php";
-header("Content-Type: text/html;charset=utf-8");
-mysqli_query($conn, "SET NAMES 'utf8'");
+	include "conexion.php";
+	mysqli_query($conn, "SET NAMES 'utf8'");
 	$registros=4;
 	@$pagina = $_GET ['pagina'];
 
-if (!isset($pagina))
-{
-$pagina = 1;
-$inicio = 0;
-}
-else
-{
-$inicio = ($pagina-1) * $registros;
-} 
+	if (!isset($pagina)) {
+		$pagina = 1;
+		$inicio = 0;
+	} else {
+		$inicio = ($pagina-1) * $registros;
+	  } 
+
 	$result = "SELECT id_noticias, imagen, titulo, SUBSTRING(contenido, 1,500) as contenidoc FROM noticias ORDER BY fecha desc limit ".$inicio." , ".$registros." ";
 	$cad = mysqli_query($conn,$result) or die ( 'error al listar, $pegar' .mysqli_error($conn)); 
 	//calculamos las paginas a mostrar
 
-$contar = "SELECT * FROM noticias";
-$contarok = mysqli_query($conn, $contar);
-$total_registros = mysqli_num_rows($contarok);
-//$total_paginas = ($total_registros / $registros);
-$total_paginas = ceil($total_registros / $registros); 
+	$contar = "SELECT * FROM noticias";
+	$contarok = mysqli_query($conn, $contar);
+	$total_registros = mysqli_num_rows($contarok);
+	//$total_paginas = ($total_registros / $registros);
+	$total_paginas = ceil($total_registros / $registros); 
 
 
 	while ($row = mysqli_fetch_array($cad)) {
-		$ruta = "agregarnoticias/imagenes/" . $row['imagen'];
+		$ruta = "sistema/imagenesNoticias/" . $row['imagen'];
 ?>
 	<div class="row noticias">
 		<div class="col-md-12">
-			<h3 class="text-center"><a href="noticia.php?id=<?php echo $row['id_noticias'];?>"><?php echo $row['titulo'];?></a></h3>
+			<h3 class="text-center tituloNoticia"><a href="noticia.php?id=<?php echo $row['id_noticias'];?>"><?php echo $row['titulo'];?></a></h3>
 		</div>
 		<div class="col-md-10 col-md-offset-1">
-			<div class="col-md-4 alpha">
+			<div class="col-md-6 alpha">
 				<img class="img-responsive" src="<?php echo $ruta; ?>">
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-6">
 				<div class="box">
-					<p class="text-justify"><?php echo $row['contenidoc']; ?>...</p>
+					<p class="text-justify contenidoNoticia"><?php echo $row['contenidoc']; ?>...</p>
 				</div>
 				<a class="pull-right" href="noticia.php?id=<?php echo $row['id_noticias'];?>">Ver noticia completa</a>
 			</div>

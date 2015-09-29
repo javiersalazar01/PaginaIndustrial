@@ -157,10 +157,36 @@
 				<div class="col-md-12">
 					<div id="event-carousel" class="carousel slide" data-interval="false">
 						<h2 class="heading notti">NOTICIAS DEL DEPARTAMENTO</h2>
-						<a class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+						<!--<a class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
 						<a class="even-control-right" href="#event-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+					-->
 						<div class="carousel-inner">
 							<div class="item active">
+								<!-- Agarra las ultimas 3 noticias-->
+								<div class="row">
+
+								<?php 
+									include "conexion.php";
+
+									mysqli_query($conn, "SET NAMES 'utf8'");
+
+									$result = "SELECT id_noticias, imagen, titulo, SUBSTRING(contenido, 1,60) as contenidoc FROM noticias ORDER BY fecha desc limit 3";
+									$cad = mysqli_query($conn,$result);
+	
+									while ($row = mysqli_fetch_array($cad)) {
+									$ruta = "sistema/imagenesNoticias/" . $row['imagen'];
+									?>
+								 	<div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive not-img" src="<?php echo $ruta; ?>" alt="Noticia-imagen">
+											<h4 class="text-ju"><?php echo $row['titulo']; ?></h4>
+											<h5 class="text-justify"><?php echo  $row['contenidoc']; ?>...</h5>
+											<a 	href="noticia.php?id=<?php echo $row['id_noticias']; ?>">Leer más...</a>
+										</div>
+									</div>
+								<?php } ?>
+								</div>
+								<!--
 								<div class="row">
 									<div class="col-sm-4">
 										<div class="single-event">
@@ -187,7 +213,8 @@
 										</div>
 									</div>
 								</div>
-							</div><!--
+							-->
+							<!--
 							<div class="item">
 								<div class="row">
 									<div class="col-sm-4">

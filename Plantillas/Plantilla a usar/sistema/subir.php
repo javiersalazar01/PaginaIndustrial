@@ -41,8 +41,9 @@ if ($_FILES["imagen"]["error"] > 0){
 				$nombre = $_FILES['imagen']['name'];
 				$titulo= $_POST['titulo'];
 				$contenido = $_POST['contenido'];
+				$fecha =$_POST['diaSelect']."-".$_POST['mesSelect']."-".$_POST['anioSelect'];
 				//@mysqli_query($conn, "INSERT INTO imagenes (imagen) VALUES ('$nombre')") ;
-				@mysqli_query($conn, "INSERT INTO noticias (imagen, titulo, contenido) VALUES ('$nombre', '$titulo', '$contenido')");
+				@mysqli_query($conn, "INSERT INTO noticias (imagen, titulo, contenido, fecha) VALUES ('$nombre', '$titulo', '$contenido', '$fecha')");
 
                 echo "<p class='text-center'>Se ha agregado la noticia exitosamente.<p>";
                 echo "<p class='text-center'><a href='agregarnoticias.php'>Atrás.</a></p>";

@@ -4,18 +4,19 @@ Mapa departamento	-
 
 -----------------------Sistema-------------------------------
 Listado de Maestros	-Juanito
-Coordinación		-Juanito
-Fechas recientes (eventos, calificaciones, Ceneval, ETC)
+Coordinación		-Juanito 					LISTO
+Fechas recientes(eventos, calif, Ceneval, ETC)
 Noticias 		-Daniela
 ------------------------Sistema o a mano---------------------
 
-*Nose si tmb sera parte del sistema o se agregara a mano
-Oferta educativa (Carreras, maestrias)
+
 
 ---------------------Diseño----------------------------------
-Footer 					-Karla
-<<<<<<< HEAD
-Terminar Mision, Vision, Valores	-Karla
-=======
-Terminar Mision, Vision, Valores	-Karla
->>>>>>> Dani-Branch
+Footer 					-Karla					LISTO
+Terminar Mision, Vision, Valores	-Karla		LISTO
+Cambiar menu oferta edu
+Agregar Axis al index
+
+-------------------Falta------------------------------------
+Sitios de interes
+Eventos

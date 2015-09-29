@@ -303,3 +303,6 @@ h2{
 .tituloNoticia{
   text-transform: uppercase;
 }
+.contenidoNoticia{
+  color: black;
+}

@@ -81,7 +81,9 @@ if(!isset($_SESSION['usuario']))
             }else{
             $inicio = ($pagina-1) * $registros;
             } 
-            $result ="SELECT id_noticias, imagen, titulo, DATE_FORMAT(fecha, '%d-%b-%Y') as fechanoticia, SUBSTRING(contenido, 1,200) as contenidoc FROM noticias ORDER BY fecha desc limit ".$inicio." , ".$registros."";
+           // $result ="SELECT id_noticias, imagen, titulo, DATE_FORMAT(fecha, '%d-%b-%Y') as fechanoticia, SUBSTRING(contenido, 1,200) as contenidoc FROM noticias ORDER BY fecha desc limit ".$inicio." , ".$registros."";
+            $result ="SELECT id_noticias, imagen, titulo, fecha, DATE_FORMAT(fecha, '%d-%b-%Y') as fechanoticia, SUBSTRING(contenido, 1,200) as contenidoc FROM noticias ORDER BY fecha desc limit ".$inicio." , ".$registros."";
+            
             $cad = mysqli_query($conn,$result) or die ( 'error al listar, $pegar' .mysqli_error($conn)); 
            
             //calculamos las paginas a mostrar
@@ -107,7 +109,7 @@ $total_paginas = ceil($total_registros / $registros);
          <td><?php echo $row['titulo']?></td> 
          <td><img  style="width:50px" src="<?php echo $ruta; ?>"></td> 
          <td><?php echo $row['contenidoc']?>...</td>
-         <td><?php echo $row['fechanoticia']?></td>
+         <td><?php echo $row['fecha']?></td>
          <td>
          <input type="submit" class="btn btn-primary" id="btneditar" name="update" value="Editar" onclick="javascript: form.action='editarnoticia.php?id=<?php echo $row['id_noticias']; ?>';">
          <input type="submit" class="btn btn-danger" id="btneliminar" name="eliminar" value="Eliminar" onclick="javascript: form.action='eliminar2.php?id=<?php echo $row['id_noticias']; ?>';" >

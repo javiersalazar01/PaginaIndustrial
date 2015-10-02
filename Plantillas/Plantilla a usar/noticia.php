@@ -11,12 +11,14 @@
 		include "conexion.php";
 
 		mysqli_query($conn, "SET NAMES 'utf8'");
+		mysqli_query($conn, "SET lc_time_names= 'es_ES'");
 		$id = $_GET['id'];
 		//consulta noticia con id
-		$result= mysqli_query($conn, "SELECT * FROM noticias WHERE id_noticias =".$_GET['id']);
+		$result= mysqli_query($conn, "SELECT *, DATE_FORMAT(fecha, '%d-%M-%Y') as fechanoticia FROM noticias WHERE id_noticias =".$_GET['id']);
 		while ($row = mysqli_fetch_array($result)) {
 		$ruta = "sistema/imagenesNoticias/" . $row['imagen'];//tomamos la ruta de la imagen de la noticia
-		$fechaArray=explode("-", $row['fecha']);
+		$fechaArray=explode("-", $row['fechanoticia']);
+
 	?>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
@@ -26,9 +28,10 @@
 
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<img class="img-responsive" src="<?php echo $ruta; ?>">
+			<img class="img-responsive not-imagen" src="<?php echo $ruta; ?>">
 		</div>
 	</div>
+	<br>
 
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
@@ -38,7 +41,7 @@
 
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-			<small class="pull-right">Publicado el: <?php echo $fechaArray[0]." de ".$fechaArray[1]." del ".$fechaArray[2];?></small>
+			<small class="pull-right">Publicado el: <?php echo $fechaArray[0]." de ".ucfirst($fechaArray[1])." del ".$fechaArray[2];?></small>
 		</div>
 	</div>
 

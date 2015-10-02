@@ -19,6 +19,7 @@ if(!isset($_SESSION['usuario']))
        die("Connection failed: " . $conn->connect_error);
     }
 mysqli_set_charset($conn, 'utf8');
+ini_set('display_errors',false);
 //comprobamos si ha ocurrido un error.
 if ($_FILES["imagen"]["error"] > 0){
 	echo "ha ocurrido un error";
@@ -26,7 +27,7 @@ if ($_FILES["imagen"]["error"] > 0){
 	//ahora vamos a verificar si el tipo de archivo es un tipo de imagen permitido.
 	//y que el tamano del archivo no exceda los 7000kb
 	$permitidos = array("image/jpg", "image/jpeg", "image/gif", "image/png");
-	$limite_kb = 10000;
+	$limite_kb = 1000;
 
 	if (in_array($_FILES['imagen']['type'], $permitidos) && $_FILES['imagen']['size'] <= $limite_kb * 1024){
 		//esta es la ruta donde copiaremos la imagen
@@ -41,10 +42,14 @@ if ($_FILES["imagen"]["error"] > 0){
 				$nombre = $_FILES['imagen']['name'];
 				$titulo= $_POST['titulo'];
 				$contenido = $_POST['contenido'];
-				$fecha =$_POST['diaSelect']."-".$_POST['mesSelect']."-".$_POST['anioSelect'];
-				//@mysqli_query($conn, "INSERT INTO imagenes (imagen) VALUES ('$nombre')") ;
-				@mysqli_query($conn, "INSERT INTO noticias (imagen, titulo, contenido, fecha) VALUES ('$nombre', '$titulo', '$contenido', '$fecha')");
+				$fecha =$_POST['diaSelect']." ".$_POST['mesSelect']." ".$_POST['anioSelect'];
 
+				$fechaInsert = strtotime($fecha);
+				$date =date('Y-m-d', $fechaInsert);
+
+				//@mysqli_query($conn, "INSERT INTO imagenes (imagen) VALUES ('$nombre')") ;
+				@mysqli_query($conn, "INSERT INTO noticias (imagen, titulo, contenido, fecha) VALUES ('$nombre', '$titulo', '$contenido', '$date')");
+				//echo $date;
                 echo "<p class='text-center'>Se ha agregado la noticia exitosamente.<p>";
                 echo "<p class='text-center'><a href='agregarnoticias.php'>Atrás.</a></p>";
                

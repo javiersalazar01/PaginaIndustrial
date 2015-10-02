@@ -375,142 +375,6 @@ width: 200px;
       font-size: 12px;
     }
 }
-/*************************
-*******Explore CSS******
-**************************/
-
-#explore {
-  background-color: #C34C39;
-  background-image: url("../images/event-bg.jpg");
-  background-position: center bottom;
-  background-size: contain;
-  background-repeat:no-repeat;
-  position: relative;
-  overflow: hidden;
-  padding: 130px 0 100px;
-}
-
-.watch {
-  position: absolute;
-  left: 0;
-  top: 7%;
-}
-
-#explore h2 {
-  font-size: 42px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-#countdown {
-  display: block;
-  overflow: hidden;
-  text-align: center;
-  padding: 0
-}
-
-#countdown li {
-  list-style: none;
-  display:inline-block;
-  margin-right: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 18px;
-  position: relative;
-}
-
-#countdown li:last-child {
-  margin-right: 0
-}
-
-#countdown li span {
-  display: block;
-  font-size: 40px;
-  font-weight: 700;
-  height: 82px;
-  line-height: 79px;
-  width: 75px;
-  border-radius: 10px;
-  border-right: 1px solid #9e3e2e;
-  border-bottom: 1px solid #9e3e2e;
-}
-
-#countdown li .days {
-  background-color: #45b29d;
-  border-top: 1px solid #6ac1b1;
-  border-left: 1px solid #6ac1b1;
-}
-
-#countdown li .hours {
-  background-color: #efc94c; 
-  border-top: 1px solid #f2d470;
-  border-left: 1px solid #f2d470;
-}
-
-#countdown li .minutes {
-  background-color: #e27a3f;
-  border-top: 1px solid #e89565;
-  border-left: 1px solid #e89565;
-}
-
-#countdown li .seconds {
-  background-color: #df5a49;
-  border-top: 1px solid #e57b6d;
-  border-left: 1px solid #e57b6d;
-}
-
-#countdown li:before {
-  background-color: #FFFFFF;
-  content: "";
-  height: 11px;
-  left: 0;
-  position: absolute;
-  top: 36px;
-  width: 1px;
-}
-
-#countdown li:after {
-  background-color: #FFFFFF;
-  content: "";
-  height: 11px;
-  right:0;
-  position: absolute;
-  top: 36px;
-  width: 1px;
-}
-
-.cart {
-  background-color: #b34534;  
-  position: absolute;
-  right:-200px;
-  top: 37%;
-  width:252px;
-   -webkit-transition: all 0.7s ease-in-out;
-  -moz-transition: all 0.7s ease-in-out;
-  -ms-transition: all 0.7s ease-in-out;
-  -o-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
-}
-
-.cart:hover {
-  right:0;
-}
-
-
-.cart a {
-  color: #FFFFFF;
-  display: block;
-  font-size: 24px;
-  text-transform: uppercase;
-}
-
-.cart a i {
-  font-size: 30px;  
-  padding: 20px 12px;
-  background-color: #A64030; 
-  margin-right: 3px;
-}
-
  
 
  /*************************
@@ -537,10 +401,11 @@ width: 200px;
 }
 
 .not-img{
-  padding-left: 20px;
-   margin-left: 10px;
+  
+  margin-left: auto;
   margin-right: auto;
   height: 250px;
+  
 }
 .notti {
   color: #E8CC66!important;
@@ -554,6 +419,7 @@ width: 200px;
 }
 
 .single-event {
+  width: 400px;
   margin-bottom: 70px;
 }
 
@@ -563,6 +429,8 @@ width: 200px;
   font-weight: 300;
   line-height: 26px;
   margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
   text-transform: uppercase;
 }
 
@@ -571,6 +439,8 @@ width: 200px;
   font-size: 18px;
   font-weight: 100;
   display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #event-carousel {
@@ -845,7 +715,7 @@ width: 200px;
   background-image: url("../images/footer_amarillo.png");
   background-position: center;
   background-size: contain;
-  background-repeat:no-repeat;
+  background-repeat:repeat-x;
   position: relative;
   overflow: hidden;
   padding: 0px 0 20px;

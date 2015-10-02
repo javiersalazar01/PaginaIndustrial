@@ -6,9 +6,10 @@ include "header.php";
 include "conexion.php";
 header("Content-Type: text/html;charset=utf-8");
 mysqli_query($conn, "SET NAMES 'utf8'");
+mysqli_query($conn, "SET lc_time_names= 'es_ES'"); 
 	$id = $_GET['id'];
 //consulta noticia con id
-	$result= mysqli_query($conn, "SELECT *, DATE_FORMAT(fecha, '%d-%b-%Y') as fechanoticia FROM noticias WHERE id_noticias =".$_GET['id']);
+	$result= mysqli_query($conn, "SELECT *, DATE_FORMAT(fecha, '%d-%m-%Y') as fechanoticia FROM noticias WHERE id_noticias =".$_GET['id']);
 while ($row = mysqli_fetch_array($result)) {
 	$ruta = "agregarnoticias/imagenes/" . $row['imagen'];//tomamos la ruta de la imagen de la noticia
 ?>

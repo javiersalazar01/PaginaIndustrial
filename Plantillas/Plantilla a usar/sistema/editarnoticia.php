@@ -16,11 +16,25 @@ if(!isset($_SESSION['usuario']))
 
 	$id = $_GET['id'];
 	//consulta noticia con id
-	$result= mysqli_query($conn, "SELECT * FROM noticias WHERE id_noticias =".$_GET['id']);
+	$result= mysqli_query($conn, "SELECT *, DATE_FORMAT(fecha, '%d-%b-%Y') as fechanoticia FROM noticias WHERE id_noticias =".$_GET['id']);
 	while ($row = mysqli_fetch_array($result)) {
 	$ruta = "imagenesNoticias/" . $row['imagen'];//tomamos la ruta de la imagen de la noticia
-	
+	$fechaArray=explode("-", $row['fechanoticia']);
  ?>
+
+ <script type="text/javascript">
+ 		window.onload =function(){
+          select();
+        }
+
+        function select(){
+        	$("#diaSelect").val("<?php echo $fechaArray[0]; ?>");//Selecciona valor en el tipo select segun la BD
+        	$("#mesSelect").val("<?php echo $fechaArray[1]; ?>");
+        	$("#anioSelect").val("<?php echo $fechaArray[2]; ?>");
+        }
+
+
+ </script>
  <h3 class="text-center" style="color:blue">Actualizar noticia</h3>
 	<div class="container">
 		<!-- Formulario -->
@@ -56,7 +70,7 @@ if(!isset($_SESSION['usuario']))
 				<label class="col-md-3 control-label" >Fecha:</label>
 				<div class="col-md-1">
 					<!--Dias-->
-					<select name="diaSelect" class="form-control">
+					<select name="diaSelect" id="diaSelect" class="form-control">
 						<option value="01">1 </option>
 						<option value="02">2 </option>
 						<option value="03">3 </option>
@@ -93,23 +107,23 @@ if(!isset($_SESSION['usuario']))
 				<div class="col-md-2">
 					<!--Mes-->
 					<select name="mesSelect" class="form-control">
-						<option value="Enero">Enero</option>
-						<option value="Febrero">Febrero</option>
-						<option value="Marzo">Marzo</option>
-						<option value="Abril">Abril</option>
-						<option value="Mayo">Mayo</option>
-						<option value="Junio">Junio</option>
-						<option value="Julio">Julio</option>
-						<option value="Agossto">Agosto</option>
-						<option value="Septiembre">Septiembre</option>
-						<option value="Octubre">Octubre</option>
-						<option value="Noviembre">Noviembre</option>
-						<option value="Diciembre">Diciembre</option>
+						<option value="JANUARY">Enero</option>
+						<option value="FEBRUARY">Febrero</option>
+						<option value="MARCH">Marzo</option>
+						<option value="APRIL">Abril</option>
+						<option value="MAY">Mayo</option>
+						<option value="JUN">Junio</option>
+						<option value="JULY">Julio</option>
+						<option value="AUGUST">Agosto</option>
+						<option value="SEPTEMBER">Septiembre</option>
+						<option value="OCTOBER">Octubre</option>
+						<option value="NOVEMBER">Noviembre</option>
+						<option value="DICEMBER">Diciembre</option>
 					</select>
 				</div>
 				<div class="col-md-2">
 					<!--Año-->
-					<select  name="anioSelect" class="form-control">
+					<select  name="anioSelect" id="anioSelect" class="form-control">
 						<option value="2015">2015</option>
 						<option value="2016">2016</option>
 						<option value="2017">2017</option>
@@ -134,7 +148,10 @@ if(!isset($_SESSION['usuario']))
 	mysqli_query($conn, "SET NAMES 'utf8'");
 		if (isset($_POST['actualizar'])) {
 			$ruta = "imagenesNoticias/" . $_FILES['imagen']['name'];
-			$fecha =$_POST['diaSelect']."-".$_POST['mesSelect']."-".$_POST['anioSelect'];
+			$fecha =$_POST['diaSelect']." ".$_POST['mesSelect']." ".$_POST['anioSelect'];
+
+				$fechaInsert = strtotime($fecha);
+				$date =date('Y-m-d', $fechaInsert);
 		//comprobamos si este archivo existe para no volverlo a copiar.
 		if (!file_exists($ruta) || $_FILES['imagen']['name']==$row['imagen']) {
 			//aqui movemos el archivo desde la ruta temporal a nuestra ruta
@@ -146,7 +163,7 @@ if(!isset($_SESSION['usuario']))
 						$nombre = $_FILES['imagen']['name'];
 						unlink($_POST['imagenanterior']);
 						@mysqli_query($conn, "UPDATE noticias set titulo='" . $_POST["titulo"]. "', contenido='" . $_POST["contenido"]. 
-							"', imagen='" . $nombre. "', fecha='".$fecha. "' WHERE id_noticias='" . $id. "'");
+							"', imagen='" . $nombre. "', fecha='".$date. "' WHERE id_noticias='" . $id. "'");
 						
                 		echo "<p class='text-center'>Se ha actualizado la noticia exitosamente.<p>";
                 		 echo'<script type="text/javascript">
@@ -158,9 +175,10 @@ if(!isset($_SESSION['usuario']))
 					}
                 //echo "<p class='text-center'><a href='agregarnoticias.php'>Atrás.</a></p>";
 				}else{//sI NO SE MODIFICA IMAGEN
-					$r=@mysqli_query($conn, "UPDATE noticias set titulo='" . $_POST["titulo"]. "', contenido='" . $_POST["contenido"]. "', fecha='".$fecha.
+					$r=@mysqli_query($conn, "UPDATE noticias set titulo='" . $_POST["titulo"]. "', contenido='" . $_POST["contenido"]. "', fecha='".$date.
 						"' WHERE id_noticias='" . $id. "'");
 									}
+									echo $date;
 					 echo'<script type="text/javascript">
                 			window.location.href="vernoticias.php";
                				 </script>';

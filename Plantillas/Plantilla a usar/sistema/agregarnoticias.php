@@ -78,18 +78,18 @@ if(!isset($_SESSION['usuario']))
 				<div class="col-md-2">
 					<!--Mes-->
 					<select name="mesSelect" class="form-control">
-						<option value="Enero">Enero</option>
-						<option value="Febrero">Febrero</option>
-						<option value="Marzo">Marzo</option>
-						<option value="Abril">Abril</option>
-						<option value="Mayo">Mayo</option>
-						<option value="Junio">Junio</option>
-						<option value="Julio">Julio</option>
-						<option value="Agossto">Agosto</option>
-						<option value="Septiembre">Septiembre</option>
-						<option value="Octubre">Octubre</option>
-						<option value="Noviembre">Noviembre</option>
-						<option value="Diciembre">Diciembre</option>
+						<option value="JANUARY">Enero</option>
+						<option value="FEBRUARY">Febrero</option>
+						<option value="MARCH">Marzo</option>
+						<option value="APRIL">Abril</option>
+						<option value="MAY">Mayo</option>
+						<option value="JUN">Junio</option>
+						<option value="JULY">Julio</option>
+						<option value="AUGUST">Agosto</option>
+						<option value="SEPTEMBER">Septiembre</option>
+						<option value="OCTOBER">Octubre</option>
+						<option value="NOVEMBER">Noviembre</option>
+						<option value="DICEMBER">Diciembre</option>
 					</select>
 				</div>
 				<div class="col-md-2">

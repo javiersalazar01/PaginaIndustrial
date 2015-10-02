@@ -13,9 +13,10 @@
 		mysqli_query($conn, "SET NAMES 'utf8'");
 		$id = $_GET['id'];
 		//consulta noticia con id
-		$result= mysqli_query($conn, "SELECT *, DATE_FORMAT(fecha, '%d-%b-%Y') as fechanoticia FROM noticias WHERE id_noticias =".$_GET['id']);
+		$result= mysqli_query($conn, "SELECT * FROM noticias WHERE id_noticias =".$_GET['id']);
 		while ($row = mysqli_fetch_array($result)) {
 		$ruta = "sistema/imagenesNoticias/" . $row['imagen'];//tomamos la ruta de la imagen de la noticia
+		$fechaArray=explode("-", $row['fecha']);
 	?>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
@@ -37,7 +38,7 @@
 
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-			<small class="pull-right">Publicado el: <?php echo $row['fechanoticia'];?></small>
+			<small class="pull-right">Publicado el: <?php echo $fechaArray[0]." de ".$fechaArray[1]." del ".$fechaArray[2];?></small>
 		</div>
 	</div>
 

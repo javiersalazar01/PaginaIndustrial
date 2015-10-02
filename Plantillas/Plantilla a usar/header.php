@@ -64,12 +64,12 @@
                     <ul>
                            <li><a href="./industrial.php">ING. INDUSTRIAL Y DE SISTEMAS</a></li>
                                <li><a href="./sistemas.php">ING. EN SISTEMAS DE INFORMACIÓN</a></li>
-                               <li><a href="./mecatronica.php">ING. EM MECATRONICA</a></li>
+                               <li><a href="./mecatronica.php">ING. MECATRONICA</a></li>
                           </ul>
                            </li>
 
                            <li><a>POSGRADOS</a>
-                  <ul>
+                   <ul>
                                   <li><a href="http://mii.isi.uson.mx">POSGRADO EN ING. INDUSTRIAL</a></li>
                                    <li><a href="http://www.gds.uson.mx/ms">MAESTRÍA EN SUSTENTABILIDAD</a></li>
                                  <li><a href="http://www.gds.uson.mx/eds">ESPECIALIDAD EN DESARROLLO SUSTENTABLE</a></li>

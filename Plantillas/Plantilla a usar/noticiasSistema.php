@@ -12,7 +12,7 @@
 <?php 
 	include "conexion.php";
 	mysqli_query($conn, "SET NAMES 'utf8'");
-	$registros=4;
+	$registros=5;
 	@$pagina = $_GET ['pagina'];
 
 	if (!isset($pagina)) {
@@ -52,6 +52,7 @@
 			</div>
 		</div>
 	</div>	
+	<br>
         
 <?php		
 	}
@@ -101,8 +102,10 @@ echo "</p></center>";
 ?> 
  
 <br>
-	<?php 
-  include "footer.php"; ?>
+	
 </div>
+</div>
+<?php include "footer.php"; ?>
+ 
 </body>
 </html>

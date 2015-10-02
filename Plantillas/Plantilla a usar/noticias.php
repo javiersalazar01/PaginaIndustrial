@@ -1,85 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<?php include "header.php" ?>
-  <br>
-  <h1 class="titulos">NOTICIAS DEL DEPARTAMENTO</h1>
-  <div class="container">
+<?php 
+	include "header.php"; ?>
+	<br>
+	<!--Contenido de la pagina-->
+	<h1 class="titulos">NOTICIAS DEL DEPARTAMENTO</h1>
+ 	<div class="container">
 
-    <div class="row noticias">
-       <div class="col-md-12">
-          <h3 class="text-center tituloNoticia"><a href="noticia4.php">Simulacro</a></h3>
-       </div>
-       <div class="col-md-10 col-md-offset-1">
-          <div class="col-md-6 alpha">
-            <img class="img-responsive" src="images/noticias/not4.jpg">
-          </div>
-       <div class="col-md-6">
-        <div class="box">
-          <p class="text-justify">Con motivo de la conmemoración del trigésimo aniversario del sismo ocurrido en la Ciudad de México y para fomentar la cultura de la prevención, se llevó a cabo el pasado viernes 18 de septiembre a las 9:20 a.m. el primer simulacro de evacuación en el Departamento de Ingeniería Industrial.
-.... </p>
-       </div>
-        <a class="pull-right" href="noticia4.php">Ver noticia completa</a>
-      </div>
-    </div>
-   </div> 
+ 	<div class="row noticias">
+<?php 
+	include "conexion.php";
+	mysqli_query($conn, "SET NAMES 'utf8'");
+	$registros=5;
+	@$pagina = $_GET ['pagina'];
 
-   <div class="row noticias">
-       <div class="col-md-12">
-          <h3 class="text-center tituloNoticia"><a href="noticia3.php">Obtienen alumnos de Mecatrónica premios en Certamen Nacional de Prototipos</a></h3>
-       </div>
-       <div class="col-md-10 col-md-offset-1">
-          <div class="col-md-6 alpha">
-            <img class="img-responsive" src="images/noticias/not3.jpg">
-          </div>
-       <div class="col-md-6">
-        <div class="box">
-          <p class="text-justify">Cuatro estudiantes del quinto semestre de la carrera de Ingeniería Mecatrónica de nuestra casa de estudios obtuvieron el segundo lugar en el XXV Certamen Nacional de Prototipos Científicos y Tecnológicos, evento realizado del 6 al 9 del mes en curso, y cuya sede fue la Escuela Politécnica de Guadalajara.... </p>
-       </div>
-        <a class="pull-right" href="noticia3.php">Ver noticia completa</a>
-      </div>
-    </div>
-   </div> 
+	if (!isset($pagina)) {
+		$pagina = 1;
+		$inicio = 0;
+	} else {
+		$inicio = ($pagina-1) * $registros;
+	  } 
 
-   <div class="row noticias">
-       <div class="col-md-12">
-          <h3 class="text-center tituloNoticia"><a href="noticia2.php">Invitan a participar de la próxima aplicación del examen EGEL de Ceneval</a></h3>
-       </div>
-       <div class="col-md-10 col-md-offset-1">
-          <div class="col-md-6 alpha">
-            <img class="img-responsive" src="images/noticias/not2.jpg">
-          </div>
-       <div class="col-md-6">
-        <div class="box">
-          <p class="text-justify">El próximo 27 de noviembre, la Universidad de Sonora será sede nacional de la aplicación del Examen General para el Egreso de la Licenciatura (EGEL), evaluación que podrán realizar egresados de esta casa de estudios y de cualquier institución de educación superior del país. ... </p>
-       </div>
-        <a class="pull-right" href="noticia2.php">Ver noticia completa</a>
-      </div>
-    </div>
-   </div> 
+	$result = "SELECT id_noticias, imagen, titulo, SUBSTRING(contenido, 1,500) as contenidoc FROM noticias ORDER BY fecha desc limit ".$inicio." , ".$registros." ";
+	$cad = mysqli_query($conn,$result) or die ( 'error al listar, $pegar' .mysqli_error($conn)); 
+	//calculamos las paginas a mostrar
 
-   
-
-    <div class="row noticias">
-       <div class="col-md-12">
-          <h3 class="text-center tituloNoticia"><a href="noticia1.php">Obtiene docente de Ingeniería en Mecatrónica grado de doctor</a></h3>
-       </div>
-       <div class="col-md-10 col-md-offset-1">
-          <div class="col-md-6 alpha">
-            <img class="img-responsive" src="images/noticias/not1.jpg">
-          </div>
-       <div class="col-md-6">
-        <div class="box">
-          <p class="text-justify">Con el tema de la puesta en operación de un sistema de entrenamiento de control de procesos y evaluación de comprobadores industriales, la académica María Elena Anaya Pérez obtuvo el Doctorado en Ingeniería Mecatrónica en la Universidad Popular Autónoma del Estado de Puebla... </p>
-       </div>
-        <a class="pull-right" href="noticia1.php">Ver noticia completa</a>
-      </div>
-    </div>
-   </div>  
+	$contar = "SELECT * FROM noticias";
+	$contarok = mysqli_query($conn, $contar);
+	$total_registros = mysqli_num_rows($contarok);
+	//$total_paginas = ($total_registros / $registros);
+	$total_paginas = ceil($total_registros / $registros); 
 
 
-  </div>
-  <br><br>
-<?php include "footer.php" ?>
+	while ($row = mysqli_fetch_array($cad)) {
+		$ruta = "sistema/imagenesNoticias/" . $row['imagen'];
+?>
+	<div class="row noticias">
+		<div class="col-md-12">
+			<h3 class="text-center tituloNoticia"><a href="noticia.php?id=<?php echo $row['id_noticias'];?>"><?php echo $row['titulo'];?></a></h3>
+		</div>
+		<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-6 alpha">
+				<img class="img-responsive" src="<?php echo $ruta; ?>">
+			</div>
+			<div class="col-md-6">
+				<div class="box">
+					<p class="text-justify contenidoNoticia"><?php echo $row['contenidoc']; ?>...</p>
+				</div>
+				<a class="pull-right" href="noticia.php?id=<?php echo $row['id_noticias'];?>">Ver noticia completa</a>
+			</div>
+		</div>
+	</div>	
+	<br>
+        
+<?php		
+	}
+	
+	//creando los enlaces de paginacion de resultados
+
+echo "<center><p>";
+
+if($total_registros>$registros){
+if(($pagina - 1) > 0) {
+echo "<span class='pactiva' ><a href='?pagina=".($pagina-1)."' style='color:blue'>&laquo; Anterior</a></span> ";
+}
+// Numero de paginas a mostrar
+$num_paginas=10;
+//limitando las paginas mostradas
+$pagina_intervalo=ceil($num_paginas/2)-1;
+
+// Calculamos desde que numero de pagina se mostrara
+$pagina_desde=$pagina-$pagina_intervalo;
+$pagina_hasta=$pagina+$pagina_intervalo;
+
+// Verificar que pagina_desde sea negativo
+if($pagina_desde<1){ // le sumamos la cantidad sobrante para mantener el numero de enlaces mostrados $pagina_hasta-=($pagina_desde-1); $pagina_desde=1; } // Verificar que pagina_hasta no sea mayor que paginas_totales if($pagina_hasta>$total_paginas){
+$pagina_desde-=($pagina_hasta-$total_paginas);
+$pagina_hasta=$total_paginas;
+if($pagina_desde<1){
+$pagina_desde=1;
+}
+}
+
+for ($i=$pagina_desde; $i<=$pagina_hasta; $i++){
+if ($pagina == $i){
+echo "<span class='pnumero' style='color:black' >".$pagina."</span> ";
+}else{
+echo "<span class='active' ><a style='color:blue' href='?pagina=$i'>$i</a></span> ";
+}
+}
+
+if(($pagina + 1)<=$total_paginas) {
+echo " <span class='pactiva'><a style='color:blue' href='?pagina=".($pagina+1)."'>Siguiente &raquo;</a></span>";
+}
+}
+
+echo "</p></center>";
+
+
+?> 
+ 
+<br>
+	
+</div>
+</div>
+<?php include "footer.php"; ?>
+ 
 </body>
 </html>

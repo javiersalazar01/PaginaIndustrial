@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
   <?php 
-  include "conexion.php"
-    include "header.php";
+   include 'conexion.php';
+    include 'header.php';
+
    ?>
 <style type="text/css">
 body{
 
   color: black;
 }
-table th{
+body table th{
   text-align: center;
 }
-table td{
+body table td{
  vertical-align: center;
 }
 
@@ -31,9 +32,8 @@ body .container{
         </tr>
     </thead>
     <tbody>
-
-<div class="container"></div>
-<?php $registros=15;
+<?php 
+$registros=15;
   @$pagina = $_GET ['pagina'];
 
 if (!isset($pagina))
@@ -45,7 +45,7 @@ else
 {
 $inicio = ($pagina-1) * $registros;
 } 
-  $result = "SELECT *  FROM maestros";
+  $result = "SELECT * FROM maestros ORDER BY name asc limit ".$inicio." , ".$registros." ";
   $cad = mysqli_query($conn,$result) or die ( 'error al listar, $pegar' .mysqli_error($conn)); 
   //calculamos las paginas a mostrar
 
@@ -59,19 +59,15 @@ $total_paginas = ceil($total_registros / $registros);
   while ($row = mysqli_fetch_array($cad)) {
 ?>
  <tr> 
-  <td align="center"><?php echo $row['name']; ?></td>
-<td align="center"><?php echo $row['email']; ?></td>
-<td align="center"><?php echo $row['cubiculo']; ?></td>
+   <td align="center"><b><p><?php echo $row['name'] ?></p></b> </td>
+  <td align="center"><b><?php echo $row['email'] ?></b></td>
+  <td align="center"><b><p><?php echo $row['cubiculo'] ?></p></b> </td>
   </tr>    
         
 <?php   
   }
-
   
-  //creando los enlaces de paginacion de resultados
-
 echo "<center><p>";
-
 
 if($total_registros>$registros){
 if(($pagina - 1) > 0) {
@@ -108,7 +104,7 @@ echo " <span class='pactiva'><a style='color:blue' href='?pagina=".($pagina+1)."
 }
 }
 
-echo "</p></center>";?>
+echo "</p></center>";
 ?>
 </tbody>
   </table>

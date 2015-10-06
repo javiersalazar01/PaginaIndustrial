@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -46,7 +46,7 @@
 		                    <span class="icon-bar"></span>
 		                    <span class="icon-bar"></span>
 		                </button>
-		                <a class="navbar-brand" href="index.html">
+		                <a class="navbar-brand" href="index.php">
 		                	<img class="img-responsive escudo" src="images/EscudoUson.png" alt="logo">
 		                </a>                    
 		            </div>

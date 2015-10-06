@@ -42,7 +42,7 @@
 		</div>
 		<div class="col-md-10 col-md-offset-1">
 			<div class="col-md-6 alpha">
-				<img class="img-responsive" src="<?php echo $ruta; ?>">
+				<img class="img-responsive imgNoticias" src="<?php echo $ruta; ?>">
 			</div>
 			<div class="col-md-6">
 				<div class="box">

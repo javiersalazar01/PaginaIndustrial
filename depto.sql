@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS `noticias` (
   `imagen` varchar(255) DEFAULT NULL,
   `titulo` varchar(255) NOT NULL,
   `contenido` varchar(8000) NOT NULL,
-  `fecha` timestamp not null default now(),
+  `fecha` date not null
   PRIMARY KEY (`id_noticias`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
 

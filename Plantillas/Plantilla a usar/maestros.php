@@ -22,7 +22,8 @@ body .container{
 }
 
 </style>
-<H1 align="center">LISTADO DE MAESTROS</H1>
+<div class="container">
+<h1 class="text-center titulos">LISTADO DE MAESTROS</h1>
 <table class="table table-hover table-bordered table-striped">
     <thead>
       <tr>
@@ -108,7 +109,7 @@ echo "</p></center>";
 ?>
 </tbody>
   </table>
-
+</div>
   <?php 
     include "footer.php";
    ?>

@@ -58,7 +58,7 @@
           						<a class="dropdown-toggle" data-toggle="dropdown" >Departamento
           						<span class="caret"></span></a>
           							<ul class="dropdown-menu">
-           								 <li><a href="./c.php">Maestros</a></li>
+           								 <li><a href="./maestros.php">Maestros</a></li>
            								 <li><a href="./directori.php">Directorio</a></li>
            								 <li><a href="./c.php">Mapa</a></li>
            								 <li><a href="./c.php">Prácticas Profesionales</a></li>

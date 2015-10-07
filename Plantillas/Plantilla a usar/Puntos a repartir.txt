@@ -1,22 +1,28 @@
------------------A mano o en flash o algun animador---------
+-----------------A como se pueda-----------------------------
 
-Mapa departamento	-
+Mapa departamento	
 
 -----------------------Sistema-------------------------------
-Listado de Maestros	-Juanito
-Coordinación		-Juanito 					LISTO
-Fechas recientes(eventos, calif, Ceneval, ETC)
-Noticias 		-Daniela
+Listado de Maestros			-Juanito			FALTA FOTOS MAESTROS
+Coordinación				-Juanito 			LISTO
+Noticias 				-Daniela			LISTO
+Eventos					-Daniela
 ------------------------Sistema o a mano---------------------
 
 
 
 ---------------------Diseño----------------------------------
-Footer 					-Karla					LISTO
-Terminar Mision, Vision, Valores	-Karla		LISTO
-Cambiar menu oferta edu
-Agregar Axis al index
+Footer 					-Karla				LISTO
+Terminar Mision, Vision, Valores	-Karla				LISTO
+Login Sistema
+	
 
--------------------Falta------------------------------------
+
+-------------------Falta-------------------------------------
 Sitios de interes
-Eventos
+Reglamentos
+Servicios Estudiantiles
+Identidad Buho
+Marco normativo
+Correos reportes
+

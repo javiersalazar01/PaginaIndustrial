@@ -34,7 +34,7 @@ body .container{
     </thead>
     <tbody>
 <?php 
-$registros=15;
+$registros=28;
   @$pagina = $_GET ['pagina'];
 
 if (!isset($pagina))

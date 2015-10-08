@@ -7,46 +7,53 @@
 	
 	<link href="http://fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/styles2.css" />
-	
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-
+	
 </head>
 <body>
 	
-	<div class="login">
-  <div class="heading">
-    <h2>SISTEMA DII</h2>
-    <img src="assets/images/escudogris.png" width="200px" class="img-responsive logo">
-    <form method="post" action="" role="login">
+	<section class="container login-form">
+			<h2 class="text-center">SISTEMA DEL DEPARTAMENTO DE INGENIERÍA INDUSTRIAL</h2>
+		
+		<form method="post" action="" role="login">
+			<section>
+				
+				<img src="assets/images/EscudoUson.png" width="200px" class="img-responsive logo">
+				
+				
+		
+				<div class="form-group">
+					<span class="input-group-addon"><i class="fa fa-user"></i></span>
+	   				<input type="text" name="user" placeholder="Nombre de usuario" required class="form-control input-lg" />
+				</div>
 
-      <div class="input-group input-group-lg">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-        <input type="text" class="form-control txtn" name="user" placeholder="Nombre de usuario">
-          </div>
+				<div class="form-group">
+					<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+	   				<input type="password" name="password" placeholder="Contraseña" required class="form-control input-lg" />
+				</div>
+				
+				<!--<a href="#">¿Olvidaste tu contraseña?</a>-->
+				<br>
+				
+				<button type="submit" name="submit" class="btn btn-lg btn-block btn-success">Iniciar Sesión</button>
+			</section>
+		</form>
 
-        <div class="input-group input-group-lg">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-          <input type="password" class="form-control" name="password" placeholder="Contraseña" >
-        </div>
-
-        <button type="submit" name="submit" class="float">Iniciar Sesión</button>
-       </form>
- 		</div>
- </div>
+		
+	</section>
 	
 
 </body>
 </html>
-
 <?php
 //incluidos la clase de conxion
 
 include "../conexion.php";
 
  $errorLogin=false;
-//header("Content-Type: text/html;charset=utf-8");
+header("Content-Type: text/html;charset=utf-8");
 mysqli_set_charset($conn, 'utf8');
 mysqli_query($conn, "SET NAMES 'utf8'");
 if (mysqli_connect_errno())

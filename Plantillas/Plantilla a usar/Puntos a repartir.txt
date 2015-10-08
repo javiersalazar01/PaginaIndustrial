@@ -14,15 +14,15 @@ Eventos					-Daniela
 ---------------------Diseño----------------------------------
 Footer 					-Karla				LISTO
 Terminar Mision, Vision, Valores	-Karla				LISTO
-Login Sistema
+Login Sistema				-Karla
 	
 
 
 -------------------Falta-------------------------------------
-Sitios de interes
+Sitios de interes(ir con coordinadores)
 Reglamentos
 Servicios Estudiantiles
 Identidad Buho
-Marco normativo
+Marco normativo				-Karla
 Correos reportes
 

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<?php include "header.php"; ?>
+<script type="text/javascript">
+                jQuery(document).ready(function() {
+                    jQuery('.demo').nailthumb({
+                        imageCustomFinder: function(el){
+                            var image = $('<img />').attr('src',el.attr('href').replace('/full/','/small/')).css('display','none');
+                            image.attr('alt',el.attr('title'));
+                            el.append(image);
+                            return image;
+                        },
+                        titleAttr:'alt'
+                    });
+                    Shadowbox.init();
+                });
+</script>
+
+
+
+<body>
+
+
+
+<a class="demo nailthumb-container" rel="shadowbox[gallery]" title="Image Title" href="images/logo.png"></a> 
+<a class="demo nailthumb-container" rel="shadowbox[gallery]" title="Image Title" href="images/logo_reportes.png"></a> 
+<a class="demo nailthumb-container" rel="shadowbox[gallery]" title="3.jpg" href="images/EscudoUson.png"></a>
+<a class="demo nailthumb-container" rel="shadowbox[gallery]" title="4.jpg" href="4.jpg"></a>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

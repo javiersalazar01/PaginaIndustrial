@@ -51,8 +51,9 @@
           							<ul class="dropdown-menu">
            								 <li><a href="maestros.php">MAESTROS</a></li>
            								 <li><a href="directori.php">DIRECTORIO</a></li>
+
            								 <li><a href="mapa.php">MAPA</a></li>
-           								 <li><a href="c.php">PRÁCTICAS PROFESIONALES</a></li>
+           								 <li><a href="practicas.php">PRÁCTICAS PROFESIONALES</a></li>
          						    </ul>
      					    </li> 
      					    <li ><a href="noticias.php">NOTICIAS</a></li>

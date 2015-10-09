@@ -40,7 +40,7 @@
 
   <div class="container">
     
-    <h2 class="titulos">EVENTOS</h2>
+    <h1 class="titulos">EVENTOS</h1>
     <br>
     <div class="col-md-12">
     <?php 

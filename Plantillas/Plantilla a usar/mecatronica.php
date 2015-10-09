@@ -86,7 +86,7 @@ $(document).ready(function(e) {
 	<h2>Mapa curricular</h2>
 		<img src="images/mapasCurriculares/mapa_ime.png"  usemap="#Map" class="img-responsive">
 <map name="Map" id="Map">
-<area shape="rect" coords="252,540,544,708" href="http://dii.isi.uson.mx/asignaturas/6880.pdf" target="_blank" title="Calculo diferencial e integral I" />
+<area shape="rect" coords="252,540,544,708" href="http://dii.isi.uson.mx/asignaturas/6880.pdf" target="_blank" title="Calculo Diferencial e Integral I" />
 <area shape="rect" coords="248,804,552,964" href="http://dii.isi.uson.mx/asignaturas/6881.pdf" target="_blank" title="Algebra"/>
 <area shape="rect" coords="240,1066,556,1250" href="#" />
 <area shape="rect" coords="244,1336,552,1516" href="#" target="_blank" alt="quimica" />

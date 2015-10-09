@@ -88,54 +88,55 @@ $(document).ready(function(e) {
 <div class="mapasCurriculares" id="mapa">
 	<h2>Mapa curricular</h2>
 	<img src="images/mapasCurriculares/mapa_isi.jpg" border="0" usemap="#Map" class="img-responsive">
-<map name="Map" id="Map"><area shape="rect" coords="327,803,597,931" href="#" target="_blank" alt="ntic" />
-<area shape="rect" coords="336,972,591,1116" href="#" target="_blank" alt="etica" />
-<area shape="rect" coords="58,977,308,1119" href="#" target="_blank" alt="prender a aprender" />
-<area shape="rect" coords="66,1169,308,1316" href="#" alt="caracteristicas de la soc actual" />
+<map name="Map" id="Map">
+<area shape="rect" coords="327,803,597,931" href="http://dii.isi.uson.mx/asignaturas/0123.pdf" title="Nuevas Tecnologías de información y comunicación" target="_blank" alt="ntic" />
+<area shape="rect" coords="336,972,591,1116" href="http://dii.isi.uson.mx/asignaturas/0124.pdf" title="Etica y desarrollo profesional" target="_blank" alt="etica" />
+<area shape="rect" coords="58,977,308,1119" href="http://dii.isi.uson.mx/asignaturas/0120.pdf" title="Estrategias de aprender a aprender" target="_blank" alt="prender a aprender" />
+<area shape="rect" coords="66,1169,308,1316" href="http://dii.isi.uson.mx/asignaturas/021.pdf" title="Caracteristicas de la sociedad actual" alt="caracteristicas de la soc actual" />
 <area shape="rect" coords="47,794,311,938" href="#" target="_blank" alt="act culturales y deportivas" />
-<area shape="rect" coords="738,586,1011,758" href="#" target="_blank" alt="calculo1" />
-<area shape="rect" coords="66,1438,325,1588" href="#" target="_blank" alt="quimica 1" />
-  <area shape="rect" coords="358,1438,611,1600" href="#" target="_blank" alt="sustentabilidad" />
-  <area shape="rect" coords="355,1613,602,1761" href="#" target="_blank" alt="electiva 6897" />
-  <area shape="rect" coords="72,1625,327,1769" href="#" target="_blank" alt="electiva 6894" />
-  <area shape="rect" coords="75,1827,333,1966" href="#" target="_blank" alt="electiva 6914" />
-  <area shape="rect" coords="363,1827,611,1969" href="#" target="_blank" alt="Electiva de economia" />
-  <area shape="rect" coords="752,1650,1025,1816" href="#" target="_blank" alt="Algebra" />
-  <area shape="rect" coords="1094,1644,1363,1811" href="#" target="_blank" alt="topicos de mates discrteas" />
-  <area shape="rect" coords="1100,1894,1361,2055" href="#" target="_blank" alt="Introducion a isi" />
-  <area shape="rect" coords="1427,1902,1697,2052" href="#" target="_blank" alt="progra1" />
-  <area shape="rect" coords="1775,1905,2047,2050" href="#" target="_blank" alt="progra 2" />
-  <area shape="rect" coords="1777,2138,2044,2283" href="#" target="_blank" alt="geometria" />
-  <area shape="rect" coords="1780,2375,2052,2538" href="#" target="_blank" alt="mejora de la calidad" />
-  <area shape="rect" coords="2105,2133,2383,2286" href="#" target="_blank" alt="graficacion y multimedia" />
-  <area shape="rect" coords="1780,1655,2044,1805" href="#" target="_blank" alt="estructura de datos" />
-  <area shape="rect" coords="1766,1436,2050,1586" href="#" target="_blank" alt="redes1" />
-  <area shape="rect" coords="2108,1436,2383,1586" href="#" target="_blank" alt="redes2" />
-  <area shape="rect" coords="1797,1069,2075,1208" href="#" target="_blank" alt="software de base" />
-  <area shape="rect" coords="1450,1075,1727,1211" href="#" target="_blank" alt="topicos de electricidad y electronica" />
-  <area shape="rect" coords="1091,1072,1388,1233" href="#" target="_blank" alt="fisica 1" />
-  <area shape="rect" coords="1111,361,1388,519" href="#" target="_blank" alt="calculo2" />
-  <area shape="rect" coords="1444,355,1727,511" href="#" target="_blank" alt="calculo3" />
-  <area shape="rect" coords="1452,588,1733,744" href="#" target="_blank" alt="prob y estadistica" />
-  <area shape="rect" coords="1450,838,1730,993" href="#" target="_blank" alt="ecuaciones diferenciales" />
-  <area shape="rect" coords="1791,600,2061,752" href="#" target="_blank" alt="Analisis de datos" />
-  <area shape="rect" coords="2144,344,2413,516" href="#" target="_blank" alt="logistica" />
-  <area shape="rect" coords="2144,600,2419,744" href="#" target="_blank" alt="simulacion" />
-  <area shape="rect" coords="2147,833,2436,997" href="#" target="_blank" alt="inv de operaciones" />
-  <area shape="rect" coords="2486,583,2752,752" href="#" target="_top" alt="Planeacion y control" />
-  <area shape="rect" coords="3163,586,3444,733" href="#" target="_blank" alt="cultura" />
-    <area shape="rect" coords="3516,566,3777,738" href="#" target="_blank" alt="planeacion estrategica" />
-      <area shape="rect" coords="3511,966,3777,1119" href="#" target="_blank" alt="sistema de soporte a la toma" />
-      <area shape="rect" coords="3175,966,3436,1125" href="#" target="_blank" alt="costos" />
-      <area shape="rect" coords="2825,1198,3102,1346" href="#" target="_blank" alt="Ing en sistemas" />
-  <area shape="rect" coords="3172,1202,3436,1344" href="#" target="_top" alt="analisis y dise&ntilde;o" />
-  <area shape="rect" coords="3511,1191,3780,1358" href="#" target="_blank" alt="sistemas de info" />
-    <area shape="rect" coords="3869,1200,4133,1347" href="#" target="_blank" alt="solucioens integrales" />
-    <area shape="rect" coords="3863,1433,4141,1572" href="#" target="_blank" alt="inv electronica de temas selectos" />
-    <area shape="rect" coords="3866,1663,4141,1822" href="#" target="_blank" alt="Ing de software" />
-    <area shape="rect" coords="3175,1416,3441,1580" href="#" target="_blank" alt="topicos avanzados de progra" />
-  <area shape="rect" coords="2819,1655,3097,1805" href="#" target="_blank" alt="base de datos" />
-<area shape="rect" coords="3176,1852,3458,2008" href="#" target="_blank" alt="programacion visual e inet" />
+<area shape="rect" coords="738,586,1011,758" href="http://dii.isi.uson.mx/asignaturas/6881.pdf" href="#" target="_blank" alt="calculo1" />
+<area shape="rect" coords="66,1438,325,1588" href="http://dii.isi.uson.mx/asignaturas/6883.pdf" target="_blank" alt="quimica 1" />
+  <area shape="rect" coords="358,1438,611,1600" href="http://dii.isi.uson.mx/asignaturas/6893.pdf" target="_blank" alt="sustentabilidad" />
+  <area shape="rect" coords="355,1613,602,1761" href="http://dii.isi.uson.mx/asignaturas/6897.pdf" title="Electiva de sociales o humanidades" target="_blank" alt="electiva 6897" />
+  <area shape="rect" coords="72,1625,327,1769" href="http://dii.isi.uson.mx/asignaturas/6894.pdf" title="Electiva de sociales o humanidades" target="_blank" alt="electiva 6894" />
+  <area shape="rect" coords="75,1827,333,1966" href="http://dii.isi.uson.mx/asignaturas/6914.pdf" title="Electiva de Gestión de Recursos Humanos" target="_blank" alt="electiva 6914" />
+  <area shape="rect" coords="363,1827,611,1969" href="#" title="Electiva del departamento de economía" target="_blank" alt="Electiva de economia" />
+  <area shape="rect" coords="752,1650,1025,1816" href="http://dii.isi.uson.mx/asignaturas/6880.pdf" title="Algebra"target="_blank" alt="Algebra" />
+  <area shape="rect" coords="1094,1644,1363,1811" href="http://dii.isi.uson.mx/asignaturas/6887.pdf" title="Tópicos de matematicas discretas" target="_blank" alt="topicos de mates discrteas" />
+  <area shape="rect" coords="1100,1894,1361,2055" href="http://dii.isi.uson.mx/asignaturas/6882.pdf" title="Introducción a la Ingeniería de Sistemas de Información" target="_blank" alt="Introducion a isi" />
+  <area shape="rect" coords="1427,1902,1697,2052" href="http://dii.isi.uson.mx/asignaturas/7973.pdf" title="Programación para Ingenierios I" target="_blank" alt="progra1" />
+  <area shape="rect" coords="1775,1905,2047,2050" href="http://dii.isi.uson.mx/asignaturas/7971.pdf" title="Programación para Inengierios II" target="_blank" alt="progra 2" />
+  <area shape="rect" coords="1777,2138,2044,2283" href="http://dii.isi.uson.mx/asignaturas/6886.pdf" title="Geometría Análitica" target="_blank" alt="geometria" />
+  <area shape="rect" coords="1780,2375,2052,2538" href="http://dii.isi.uson.mx/asignaturas/7993.pdf" title="Mejora de la calidad" target="_blank" alt="mejora de la calidad" />
+  <area shape="rect" coords="2105,2133,2383,2286" href="http://dii.isi.uson.mx/asignaturas/6910.pdf" title="Graficación y Multimedia" target="_blank" alt="graficacion y multimedia" />
+  <area shape="rect" coords="1780,1655,2044,1805" href="http://dii.isi.uson.mx/asignaturas/6898.pdf" title="Estructura de datis" target="_blank" alt="estructura de datos" />
+  <area shape="rect" coords="1766,1436,2050,1586" href="http://dii.isi.uson.mx/asignaturas/6900.pdf" title="Redes I" target="_blank" alt="redes1" />
+  <area shape="rect" coords="2108,1436,2383,1586" href="http://dii.isi.uson.mx/asignaturas/6905.pdf" title="Redes II" target="_blank" alt="redes2" />
+  <area shape="rect" coords="1797,1069,2075,1208" href="http://dii.isi.uson.mx/asignaturas/6896.pdf" title="Introducción al Software de Base" target="_blank" alt="software de base" />
+  <area shape="rect" coords="1450,1075,1727,1211" href="http://dii.isi.uson.mx/asignaturas/6891.pdf" title="Tópicos de electricidad y electronica" target="_blank" alt="topicos de electricidad y electronica" />
+  <area shape="rect" coords="1091,1072,1388,1233" href="http://dii.isi.uson.mx/asignaturas/6885.pdf" title="Física I con laboratorio" target="_blank" alt="fisica 1" />
+  <area shape="rect" coords="1111,361,1388,519" href="http://dii.isi.uson.mx/asignaturas/6884.pdf" title="Calculo Diferencial e Integral II" target="_blank" alt="calculo2" />
+  <area shape="rect" coords="1444,355,1727,511" href="http://dii.isi.uson.mx/asignaturas/6889.pdf" title="Calculo Diferencial e Integral III" target="_blank" alt="calculo3" />
+  <area shape="rect" coords="1452,588,1733,744" href="http://dii.isi.uson.mx/asignaturas/6890.pdf" title="Probabilidad y estadistica" target="_blank" alt="prob y estadistica" />
+  <area shape="rect" coords="1450,838,1730,993" href="http://dii.isi.uson.mx/asignaturas/6895.pdf" title="Ecuaciones Diferenciales I" target="_blank" alt="ecuaciones diferenciales" />
+  <area shape="rect" coords="1791,600,2061,752" href="http://dii.isi.uson.mx/asignaturas/7980.pdf" title="Análisis de datos en Ingeniería" target="_blank" alt="Analisis de datos" />
+  <area shape="rect" coords="2144,344,2413,516" href="http://dii.isi.uson.mx/asignaturas/7992.pdf" title="Logística y Comercialización" target="_blank" alt="logistica" />
+  <area shape="rect" coords="2144,600,2419,744" href="http://dii.isi.uson.mx/asignaturas/6893.pdf" target="_blank" alt="simulacion" />
+  <area shape="rect" coords="2147,833,2436,997" href="http://dii.isi.uson.mx/asignaturas/7990.pdf" title="Investigación de Operaciones I" target="_blank" alt="inv de operaciones" />
+  <area shape="rect" coords="2486,583,2752,752" href="http://dii.isi.uson.mx/asignaturas/6919.pdf" title="Planeación y control industrial" target="_top" alt="Planeacion y control" />
+  <area shape="rect" coords="3163,586,3444,733" href="http://dii.isi.uson.mx/asignaturas/6906.pdf" title="Cultura Emprendedora" target="_blank" alt="cultura" />
+    <area shape="rect" coords="3516,566,3777,738" href="http://dii.isi.uson.mx/asignaturas/6916.pdf" title="Planeación estrategica e informatica" target="_blank" alt="planeacion estrategica" />
+      <area shape="rect" coords="3511,966,3777,1119" href="http://dii.isi.uson.mx/asignaturas/6921.pdf" title="Sistema de soporte a la toma de deciciones" target="_blank" alt="sistema de soporte a la toma" />
+      <area shape="rect" coords="3175,966,3436,1125" href="http://dii.isi.uson.mx/asignaturas/7977.pdf" title="Costos en Ingeniería" target="_blank" alt="costos" />
+      <area shape="rect" coords="2825,1198,3102,1346" href="http://dii.isi.uson.mx/asignaturas/7983.pdf" title="Ingeniería en Sistemas" target="_blank" alt="Ing en sistemas" />
+  <area shape="rect" coords="3172,1202,3436,1344" href="http://dii.isi.uson.mx/asignaturas/6902.pdf" title="Análisis y diseño de sistemas de información" target="_top" alt="analisis y diseño" />
+  <area shape="rect" coords="3511,1191,3780,1358" href="http://dii.isi.uson.mx/asignaturas/6912.pdf" title="Sistemas de información" target="_blank" alt="sistemas de info" />
+    <area shape="rect" coords="3869,1200,4133,1347" href="http://dii.isi.uson.mx/asignaturas/6922.pdf" title="Soluciones Integrales en las empresas" target="_blank" alt="solucioens integrales" />
+    <area shape="rect" coords="3863,1433,4141,1572" href="http://dii.isi.uson.mx/asignaturas/6913.pdf" title="Investigación eléctronica de temas selectos" target="_blank" alt="inv electronica de temas selectos" />
+    <area shape="rect" coords="3866,1663,4141,1822" href="http://dii.isi.uson.mx/asignaturas/6918.pdf" title="Ingeniería en software" target="_blank" alt="Ing de software" />
+    <area shape="rect" coords="3175,1416,3441,1580" href="http://dii.isi.uson.mx/asignaturas/6934.pdf" title="Tópicos avanzados de programación" target="_blank" alt="topicos avanzados de progra" />
+  <area shape="rect" coords="2819,1655,3097,1805" href="http://dii.isi.uson.mx/asignaturas/6903.pdf" title="Base de datos" target="_blank" alt="base de datos" />
+<area shape="rect" coords="3176,1852,3458,2008" href="http://dii.isi.uson.mx/asignaturas/6908.pdf" title="Programación visual e internet" target="_blank" alt="programacion visual e inet" />
 </map>
 </div>
 </div>

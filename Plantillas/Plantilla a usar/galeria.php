@@ -40,12 +40,22 @@
 
   <div class="container">
     
-    <h2 class="titulos">EVENTOS DEL DEPARTAMENTO</h2>
+    <h2 class="titulos">EVENTOS</h2>
     <br>
-    <a class="demo nailthumb-container" rel="shadowbox[gallery]" title="Image Title" href="img/1.jpg"></a> 
-    <a class="demo nailthumb-container" rel="shadowbox[gallery]" title="Image Title" href="img/2.jpg"></a> 
-    <a class="demo nailthumb-container" rel="shadowbox[gallery]" title="3.jpg" href="img/3.jpg"></a>
-    <a class="demo nailthumb-container" rel="shadowbox[gallery]" title="4.jpg" href="img/4.jpg"></a>
+    <div class="col-md-12">
+    <?php 
+        include "conexion.php";
+        mysqli_query($conn, "SET NAMES 'utf8'");
+
+                  $result = "SELECT * FROM eventos ORDER BY id_eventos  desc";
+                  $cad = mysqli_query($conn,$result);
+  
+                  while ($row = mysqli_fetch_array($cad)) {
+                  $ruta = "sistema/imagenesEventos/" . $row['imagen'];
+     ?>
+    <a class="demo nailthumb-container" rel="shadowbox[gallery]" title="<?php echo $row['titulo']; ?>" href="<?php echo $ruta; ?>"></a> 
+    <?php } ?>
+  </div>
   </div>
 
 <?php include "footer.php"; ?>

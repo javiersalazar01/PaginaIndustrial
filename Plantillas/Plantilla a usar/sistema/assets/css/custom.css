@@ -1,0 +1,24 @@
+ body{
+
+ 	
+ }
+ .navbar-inverse, .dropdown-menu{
+	background-color: #253876;
+	border: none;
+	
+}
+
+.navbar-inverse .navbar-nav > li > a, .dropdown-menu > li > a {
+
+	color: white;
+}
+
+.botones{
+	width: 200px;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover,
+.dropdown-menu > .open > a, .dropdown-menu > .open > a:focus, .dropdown-menu > .open > a:hover
+{
+	background-color: white;
+	color: #253876;
+}

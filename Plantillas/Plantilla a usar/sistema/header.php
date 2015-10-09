@@ -7,7 +7,7 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400">
  <script type="text/javascript"  language="javascript"  src="assets/js/modificar.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
   <script type="text/javascript">
 $("#upfile1").click(function () {
     $("#file1").trigger('click');
@@ -28,8 +28,20 @@ $("#upfile1").click(function () {
     </div>
     <div class="collapse navbar-collapse" id="menu">
       <ul class="nav navbar-nav"> 
-        <li class=""><a href="agregarnoticias.php">Agregar Noticia</a></li>
-        <li><a href="vernoticias.php">Ver noticias</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Agregar
+        <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="agregarnoticias.php">Noticias</a></li>
+            <li><a href="agregareventos.php">Eventos</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Ver
+        <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="vernoticias.php">Noticias</a></li>
+            <li><a href="vereventos.php">Eventos</a></li>
+          </ul>
+        </li>
         <li><a href="cerrarsesion.php">Cerrar Sesión</a></li>
       </ul>
     </div>

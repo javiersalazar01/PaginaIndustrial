@@ -1,9 +1,17 @@
 
 .demo {
-width: 150px;
-height: 150px;
+width: 350px;
+height: 300px;
 background-image: url("path/to/loadingplaceholder");
 background-position: center center;
 background-repeat: no-repeat;
 display: inline-block;
+
 }
+
+.demo:hover{
+
+opacity: 0.3;
+
+}
+

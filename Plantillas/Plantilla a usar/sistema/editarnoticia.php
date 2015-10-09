@@ -178,7 +178,7 @@ if(!isset($_SESSION['usuario']))
 					$r=@mysqli_query($conn, "UPDATE noticias set titulo='" . $_POST["titulo"]. "', contenido='" . $_POST["contenido"]. "', fecha='".$date.
 						"' WHERE id_noticias='" . $id. "'");
 									}
-									echo $date;
+									
 					 echo'<script type="text/javascript">
                 			window.location.href="vernoticias.php";
                				 </script>';

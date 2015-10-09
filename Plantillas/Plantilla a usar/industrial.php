@@ -27,6 +27,7 @@
 			</li>
 			<li><a href="#campos">Campos profesionales donde puede prestar sus servicios</a></li>
 			<li><a href="ind-asignaturas.php">Asignaturas</a></li>
+			<li><a href="#mapa">Mapa curricular</a></li>
 		</ul>
 	</div>
 </div>
@@ -277,8 +278,9 @@
 			</ul>
 		</div>
 	</div>
-	<br>
+
 </div>  
+ 
 <br>
 	
 </div>

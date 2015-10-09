@@ -1,8 +1,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="Pagina web DII" content="">
+    <meta name="CSTI Desarrollo" content="">
     <title>Departamento de Ingeniería Industrial</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
           							<ul class="dropdown-menu">
            								 <li><a href="maestros.php">MAESTROS</a></li>
            								 <li><a href="directori.php">DIRECTORIO</a></li>
-           								 <li><a href="c.php">MAPA</a></li>
+           								 <li><a href="mapa.php">MAPA</a></li>
            								 <li><a href="c.php">PRÁCTICAS PROFESIONALES</a></li>
          						    </ul>
      					    </li> 
@@ -80,7 +80,7 @@
          						    </ul>
      					    </li>                               
 		                    <li ><a href="c.php">SITIOS DE INTERES</a></li>
-		                    <li ><a href="c.php">EVENTOS</a></li>        
+		                    <li ><a href="eventos.php">EVENTOS</a></li>        
 		                </ul>
 		            </div>
    

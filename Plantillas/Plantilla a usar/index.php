@@ -60,7 +60,7 @@
           							<ul class="dropdown-menu">
            								 <li><a href="./maestros.php">Maestros</a></li>
            								 <li><a href="./directori.php">Directorio</a></li>
-           								 <li><a href="./c.php">Mapa</a></li>
+           								 <li><a href="./mapa.php">Mapa</a></li>
            								 <li><a href="./c.php">Prácticas Profesionales</a></li>
          						    </ul>
      					    </li> 
@@ -86,7 +86,7 @@
          						    </ul>
      					    </li>                              
 		                    <li ><a href="c.php">Sitios de interes</a></li>
-		                    <li ><a href="c.php">EVENTOS</a></li>       
+		                    <li ><a href="eventos.php">EVENTOS</a></li>       
 		                </ul>
 		            </div>
 		        </div>

@@ -2,6 +2,7 @@
 <html>
 	<?php 
 		include "header.php";
+		//hola mundo jijijijij
 
 	 ?>
 	
